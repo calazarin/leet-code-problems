@@ -3,6 +3,7 @@ package com.lazarin.learning.sorting;
 import java.util.Arrays;
 import java.util.Random;
 
+//https://www.youtube.com/watch?v=l7-f9gS8VOs
 public class SelectionSortMain {
 
     public static void main(String args[]){
@@ -17,7 +18,7 @@ public class SelectionSortMain {
         System.out.println("Before: ");
         System.out.println(Arrays.toString(numbers));
 
-        selectionSort(numbers);
+        selSort(numbers);
 
         System.out.println("After: ");
         System.out.println(Arrays.toString(numbers));
@@ -44,6 +45,29 @@ public class SelectionSortMain {
         }
 
         return list;
+    }
+
+    //T: O(n^2)
+    private static void selSort(int[] arr){
+        //0-1-2-3-4-5
+        //1-2-3-5-9-4
+
+        for(int i = 0; i < arr.length - 1; i++){
+            int minValue = arr[i];
+            for(int j = i + 1; j < arr.length; j++){
+                if(arr[j] < minValue) {
+                    minValue = arr[j];
+                    swap(arr, i, j);
+                }
+            }
+
+        }
+    }
+
+    private static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
 }

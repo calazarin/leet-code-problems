@@ -1,6 +1,6 @@
 package com.lazarin.learning.linkedlists;
 
-import com.lazarin.blindlist.linkedlist.ListNode;
+import com.lazarin.blindlistandmore.linkedlist.ListNode;
 
 public class ReverseSinglyLinkedList {
 

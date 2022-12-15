@@ -1,9 +1,6 @@
 package com.lazarin.googlequestions.interviewprocess;
 
-import com.lazarin.blindlist.tree.TreeNode;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.lazarin.blindlistandmore.tree.TreeNode;
 
 public class StepByStepDirectionsFromBinaryTreeNodetoAnother2 {
 
