@@ -1,5 +1,6 @@
 package com.lazarin.blindlistandmore.strings.easy;
 
+//https://leetcode.com/problems/valid-palindrome
 public class ValidPalindrome {
 
     public static void main(String args[]){

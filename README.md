@@ -19,3 +19,179 @@ Following bellow a few important sources that helped me a lot (and being honest,
 - [Kevin Naughton Jr.](https://www.youtube.com/@KevinNaughtonJr)
 
 I hope it helps anyone that wants to study those problems too; if you have any questions, comments or concerns, feel free drop me an e-mail!
+
+___
+
+## Problems List
+
+This section enumerates all problems in this repository and the respective links to LeetCode (grouped by subject):
+
+### Arrays
+
+#### Easy
+
+1. [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
+2. [Add Strings](https://leetcode.com/problems/add-strings/)
+
+___
+
+### Bit Manipulation
+
+#### Easy
+
+1. [Counting Bits](https://leetcode.com/problems/counting-bits/)
+2. [Missing Number](https://leetcode.com/problems/missing-number/)
+3. [Number of One Bits](https://leetcode.com/problems/number-of-1-bits/)
+4. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+
+___
+
+### Design Related Problems
+
+#### Easy
+
+1. [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+2. [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+
+#### Medium
+
+1. [LRU Cache](https://leetcode.com/problems/lru-cache/)
+2. [Min Stack](https://leetcode.com/problems/min-stack/)
+
+___
+
+### Dynamic Programming
+
+#### Easy
+
+1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
+#### Medium
+
+1. [Coin Change](https://leetcode.com/problems/coin-change/)
+2. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+3. [Decode Ways](https://leetcode.com/problems/decode-ways)
+4. [House Robber](https://leetcode.com/problems/house-robber/)
+5. [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+6. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+7. [Unique Paths](https://leetcode.com/problems/unique-paths/)
+8. [Word Break](https://leetcode.com/problems/word-break/)
+
+### Graph
+
+#### Medium
+
+1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
+2. [Course Schedule 2](https://leetcode.com/problems/course-schedule-ii/description/)
+3. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+4. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+6. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+7. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+
+___
+
+### Linked Lists
+
+#### Easy
+
+1. [Intersection of two linked lists](/https://leetcode.com/problems/intersection-of-two-linked-lists/)
+2. [Linked list cycle](https://leetcode.com/problems/linked-list-cycle/)
+3. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+4. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+5. [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)
+6. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+7. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+#### Medium
+
+1. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+2. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+3. [Reorder List](https://leetcode.com/problems/reorder-list/)
+4. [Sort List](https://leetcode.com/problems/sort-list/)
+5. [Remove Nth Node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+___
+
+### Math
+
+#### Easy
+
+1. [Arranging Coins](https://leetcode.com/problems/arranging-coins/)
+2. [Add Digits](https://leetcode.com/problems/add-digits/)
+3. [Convert Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/)
+4. [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
+5. [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+6. [Happy Number](https://leetcode.com/problems/happy-number/)
+7. [Nim Game](https://leetcode.com/problems/nim-game)
+8. [Nth Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
+9. [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+10. [Sqrtx](https://leetcode.com/problems/sqrtx/)
+11. [Ugly Number](https://leetcode.com/problems/ugly-number)
+
+#### Medium
+
+1. [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+
+___
+
+### Strings
+
+#### Easy
+
+1. [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+2. [Find The Difference](https://leetcode.com/problems/find-the-difference/)
+3. [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
+4. [Is Subsequence](https://leetcode.com/problems/is-subsequence)
+5. [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)
+6. [Ransom Node](https://leetcode.com/problems/ransom-note/description/)
+7. [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+8. [Valid Anagram](https://leetcode.com/problems/valid-anagram)
+9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+10. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
+11. [Word Pattern](https://leetcode.com/problems/word-pattern/)
+
+#### Medium
+
+1. [Encode and decode Strings](https://leetcode.com/problems/encode-and-decode-strings)
+2. [Count and Say](https://leetcode.com/problems/count-and-say/)
+4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+
+___
+
+### Tree & Trie
+
+#### Easy
+
+1. [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+2. [Binary Tree in-order Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+3. [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+4. [Binary Tree pre-order traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+5. [Binary Tree Post Order Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+6. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+7. [Minimum Depth of Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+8. [Path Sum](https://leetcode.com/problems/path-sum/)
+9. [Sum of left leaves](https://leetcode.com/problems/sum-of-left-leaves/)
+10. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+11. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+12. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+13. [Same Tree](https://leetcode.com/problems/same-tree/)
+14. [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)
+
+#### Medium
+
+1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+2. [Binary Tree Zig Zag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+3. [Construct Binary Tree from Pre order and in order traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+4. [Kth Smallest Elements in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+5. [Lowest Common Ancestor of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+6. [Lowest Common Ancestor of Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+7. [Populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+8. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+
+#### Medium - Trie
+
+1. [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
+3. [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+

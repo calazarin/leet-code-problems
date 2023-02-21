@@ -1,5 +1,6 @@
 package com.lazarin.blindlistandmore.dynamicprogramming.medium;
 
+//https://leetcode.com/problems/longest-common-subsequence/
 public class LongestCommonSubsequence {
 
     public static void main(String args[]){

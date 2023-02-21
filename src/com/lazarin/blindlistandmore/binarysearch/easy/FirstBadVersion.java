@@ -8,7 +8,7 @@ public class FirstBadVersion extends VersionControl{
 
     }
 
-    //apprach 1 - most optimal with binary search
+    //approach 1 - most optimal with binary search
     //T: O(logn)
     //S: O(1)
     public int firstBadVersion(int n) {

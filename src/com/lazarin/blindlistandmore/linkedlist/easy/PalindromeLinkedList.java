@@ -1,7 +1,5 @@
 package com.lazarin.blindlistandmore.linkedlist.easy;
 
-import com.lazarin.blindlistandmore.linkedlist.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 

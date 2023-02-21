@@ -1,7 +1,5 @@
 package com.lazarin.blindlistandmore.linkedlist.easy;
 
-import com.lazarin.blindlistandmore.linkedlist.ListNode;
-
 //https://leetcode.com/problems/remove-linked-list-elements/description/
 public class RemoveLinkedListElements {
 

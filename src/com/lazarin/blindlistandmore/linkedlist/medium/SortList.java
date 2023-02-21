@@ -1,7 +1,5 @@
 package com.lazarin.blindlistandmore.linkedlist.medium;
 
-
-
 //https://leetcode.com/problems/sort-list/
 public class SortList {
 

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//https://leetcode.com/problems/encode-and-decode-strings
 public class Codec {
 
     public String encode2(List<String> words){

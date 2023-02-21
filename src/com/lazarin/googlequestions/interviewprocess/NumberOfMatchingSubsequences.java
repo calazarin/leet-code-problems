@@ -1,12 +1,11 @@
 package com.lazarin.googlequestions.interviewprocess;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+//https://leetcode.com/problems/number-of-matching-subsequences/
 public class NumberOfMatchingSubsequences {
 
     public static void main(String args[]){

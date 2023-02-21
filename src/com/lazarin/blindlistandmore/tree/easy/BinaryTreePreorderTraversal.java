@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-//https://leetcode.com/problems/binary-tree-preorder-traversal/description/
+//https://leetcode.com/problems/binary-tree-preorder-traversal/
 public class BinaryTreePreorderTraversal {
 
     public static void main(String args[]){

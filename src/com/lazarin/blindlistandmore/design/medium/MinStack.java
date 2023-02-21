@@ -1,6 +1,5 @@
 package com.lazarin.blindlistandmore.design.medium;
 
-//TODO:check how to implement a stack (linked list or array)
 //https://leetcode.com/problems/min-stack/
 
 import java.util.Stack;

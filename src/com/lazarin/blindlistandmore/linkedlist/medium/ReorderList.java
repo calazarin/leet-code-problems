@@ -1,6 +1,6 @@
 package com.lazarin.blindlistandmore.linkedlist.medium;
 
-import com.lazarin.blindlistandmore.linkedlist.ListNode;
+import com.lazarin.blindlistandmore.linkedlist.easy.ListNode;
 
 //https://leetcode.com/problems/reorder-list/
 public class ReorderList {

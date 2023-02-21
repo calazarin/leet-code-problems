@@ -2,7 +2,7 @@ package com.lazarin.blindlistandmore.tree.easy;
 
 import com.lazarin.blindlistandmore.tree.TreeNode;
 
-//https://leetcode.com/problems/path-sum/description/
+//https://leetcode.com/problems/path-sum/
 public class PathSum {
 
     public static void main(String args[]){

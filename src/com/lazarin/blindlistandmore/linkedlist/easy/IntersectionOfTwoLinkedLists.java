@@ -1,7 +1,5 @@
 package com.lazarin.blindlistandmore.linkedlist.easy;
 
-import com.lazarin.blindlistandmore.linkedlist.ListNode;
-
 import java.util.HashSet;
 import java.util.Set;
 

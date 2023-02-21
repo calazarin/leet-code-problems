@@ -3,7 +3,7 @@ package com.lazarin.blindlistandmore.math.easy;
 import java.util.ArrayList;
 import java.util.List;
 
-//https://leetcode.com/problems/add-digits/description/
+//https://leetcode.com/problems/add-digits/
 public class AddDigits {
 
     public static void main(String args[]){

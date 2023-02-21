@@ -2,9 +2,9 @@ package com.lazarin.blindlistandmore.dynamicprogramming.medium;
 
 import java.util.Arrays;
 
+//300. https://leetcode.com/problems/longest-increasing-subsequence/
 public class LongestIncreasingSubsequence {
 
-    //300. https://leetcode.com/problems/longest-increasing-subsequence/
     public static void main(String args[]){
 
       /*  Input: nums = [10,9,2,5,3,7,101,18]

@@ -2,9 +2,9 @@ package com.lazarin.blindlistandmore.dynamicprogramming.medium;
 
 import java.util.HashMap;
 
+//https://leetcode.com/problems/decode-ways
 public class DecodeWays {
 
-    //https://leetcode.com/problems/decode-ways
     public static void main(String args[]){
 
        /* Input: s = "12"

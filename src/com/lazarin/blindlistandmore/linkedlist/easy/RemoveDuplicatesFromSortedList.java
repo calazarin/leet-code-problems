@@ -1,7 +1,5 @@
 package com.lazarin.blindlistandmore.linkedlist.easy;
 
-import com.lazarin.blindlistandmore.linkedlist.ListNode;
-
 //https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 public class RemoveDuplicatesFromSortedList {
 

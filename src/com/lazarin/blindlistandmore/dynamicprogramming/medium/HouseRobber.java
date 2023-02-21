@@ -1,8 +1,8 @@
 package com.lazarin.blindlistandmore.dynamicprogramming.medium;
 
+//https://leetcode.com/problems/house-robber/
 public class HouseRobber {
 
-    //https://leetcode.com/problems/house-robber/
     public static void main(String args[]){
 
       /*  Input: nums = [1,2,3,1]

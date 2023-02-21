@@ -1,5 +1,6 @@
 package com.lazarin.blindlistandmore.math.easy;
 
+//https://leetcode.com/problems/excel-sheet-column-title/
 public class ExcelSheetColumnTitle {
 
     public static void main(String args[]){

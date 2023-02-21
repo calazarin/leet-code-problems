@@ -1,11 +1,8 @@
 package com.lazarin.blindlistandmore.math.easy;
 
-import java.util.ArrayList;
-import java.util.List;
-
+//https://leetcode.com/problems/palindrome-number/
 public class PalindromeNumber {
 
-    //https://leetcode.com/problems/palindrome-number/description/
     public static void main(String args[]){
 
        /* Input: x = 121
@@ -47,8 +44,6 @@ public class PalindromeNumber {
         if(nString.length() == 1){
             return true;
         }
-        //i     j
-        //1-2-2-1
 
         int i = 0, j = nString.length() - 1;
         while(i < j){
