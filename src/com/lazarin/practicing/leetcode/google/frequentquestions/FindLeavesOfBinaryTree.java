@@ -1,6 +1,6 @@
 package com.lazarin.googlequestions.interviewprocess;
 
-import com.lazarin.blindlistandmore.tree.TreeNode;
+import com.lazarin.practicing.leetcode.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
