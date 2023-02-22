@@ -2,6 +2,7 @@ package com.lazarin.blindlistandmore.arrays.medium;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/product-of-array-except-self/
 public class ProductOfArrayExceptSelf {
     
     public static void main(String args[]){

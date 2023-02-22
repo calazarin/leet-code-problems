@@ -2,6 +2,7 @@ package com.lazarin.blindlistandmore.arrays.medium;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class FindFirstAndLastPositionOfElementSortedArray {
 
     public static void main(String args[]){

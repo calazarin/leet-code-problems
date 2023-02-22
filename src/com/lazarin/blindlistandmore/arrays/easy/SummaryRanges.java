@@ -3,6 +3,7 @@ package com.lazarin.blindlistandmore.arrays.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+//https://leetcode.com/problems/summarty-range/
 public class SummaryRanges {
 
     public static void main(String args[]){

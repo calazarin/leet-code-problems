@@ -2,9 +2,9 @@ package com.lazarin.blindlistandmore.arrays.easy;
 
 import java.util.Arrays;
 
+//https://leetcode.com/problems/two-sum/
 public class TwoSum {
 
-    //https://leetcode.com/problems/two-sum/
     public static void main(String args[]){
 
         int[] input1 = new int[]{2, 7, 11, 15};

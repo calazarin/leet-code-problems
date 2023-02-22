@@ -9,17 +9,6 @@ Some notes about those problems:
 - `com.lazarin.googlequestions.interviewprocess` - this package stores some problems specifically asked by Google (I picked those problems from 'LeetCode - Google 150 problems' list);
 - `com.lazarin.blindlistandmore.*` - the initial purpose of those packages was to store the famous blind 75 list problems, however, with the time, it started getting bigger and bigger....
 
-### Getting trouble to solve this kind of problem?
-
-Following bellow a few important sources that helped me a lot (and being honest, some solutions I got after watching the explanations on those YouTube channels):
-
-- [NeetCode](https://www.youtube.com/@NeetCode)
-- [Back To Back SWE](https://www.youtube.com/@BackToBackSWE)
-- [take U forward](https://www.youtube.com/@takeUforward)
-- [Kevin Naughton Jr.](https://www.youtube.com/@KevinNaughtonJr)
-
-I hope it helps anyone that wants to study those problems too; if you have any questions, comments or concerns, feel free drop me an e-mail!
-
 ___
 
 ## Problems List
@@ -30,8 +19,45 @@ This section enumerates all problems in this repository and the respective links
 
 #### Easy
 
-1. [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
-2. [Add Strings](https://leetcode.com/problems/add-strings/)
+1. [Best stime to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+2. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+3. [Find the town judge](https://leetcode.com/problems/find-the-town-judge/)
+4. [Length of last word](http://leetcode.com/problems/length-of-last-word)
+5. [Majority Element](https://leetcode.com/problems/majority-element/)
+6. [Missing Ranges](https://leetcode.com/problems/missing-ranges)
+7. [Pascal Triangle](https://leetcode.com/problems/pascals-triangle/)
+8. [Pascal Triangle 2](https://leetcode.com/problems/pascals-triangle-ii/)
+9. [Product of Array Except itself](https://leetcode.com/problems/product-of-array-except-self/)
+10. [Range Sum Query Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+11. [Search insert position](https://leetcode.com/problems/search-insert-position/)
+12. [Summary Ranges](https://leetcode.com/problems/summary-ranges/)
+13. [Two Sum](https://leetcode.com/problems/two-sum/)
+14. [Two Sum Optimized](https://leetcode.com/problems/two-sum/)
+15. [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
+16. [Add Strings](https://leetcode.com/problems/add-strings/)
+
+##### Sliding Window (Easy)
+
+17. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
+
+#### Medium
+
+18. [Conainter With Most Water](https://leetcode.com/problems/container-with-most-water/)
+19. [Find first and last position of element sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+20. [Find minimum rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+21. [Kth largest element in array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+22. [Max Contiguous subarray sum]()
+23. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/)
+24. [Product of array except itself](https://leetcode.com/problems/product-of-array-except-self/)
+25. [Search 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+26. [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+27. [Sort Colors](https://leetcode.com/problems/sort-colors/)
+28. [Subsets](https://leetcode.com/problems/subsets/)
+29. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+
+##### Binary Search (Medium)
+
+18. [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 
 ___
 
@@ -76,6 +102,8 @@ ___
 6. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 7. [Unique Paths](https://leetcode.com/problems/unique-paths/)
 8. [Word Break](https://leetcode.com/problems/word-break/)
+
+___
 
 ### Graph
 
@@ -195,3 +223,15 @@ ___
 1. [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 3. [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
+___
+
+### Getting trouble to solve this kind of problem?
+
+Finally, following bellow a few important sources that helped me a lot (and being honest, some solutions I got after watching the explanations on those YouTube channels):
+
+- [NeetCode](https://www.youtube.com/@NeetCode)
+- [Back To Back SWE](https://www.youtube.com/@BackToBackSWE)
+- [take U forward](https://www.youtube.com/@takeUforward)
+- [Kevin Naughton Jr.](https://www.youtube.com/@KevinNaughtonJr)
+
+I hope it helps anyone that wants to study those problems too; if you have any questions, comments or concerns, feel free drop me an e-mail!

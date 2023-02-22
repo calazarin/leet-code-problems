@@ -2,6 +2,7 @@ package com.lazarin.blindlistandmore.arrays.slidewindow.easy;
 
 import java.util.HashMap;
 
+//https://leetcode.com/problems/contains-duplicate-ii/
 public class ContainsDuplicate2 {
 
     public static void main(String args[]){
