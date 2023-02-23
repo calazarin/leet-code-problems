@@ -1,4 +1,4 @@
-package com.lazarin.learning.dynamicprogramming.tabulation;
+package com.lazarin.learning.leetcode.dynamicprogramming.tabulation;
 
 import java.util.Arrays;
 

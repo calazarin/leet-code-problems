@@ -1,4 +1,4 @@
-package com.lazarin.learning.dynamicprogramming.memoization.string;
+package com.lazarin.learning.leetcode.dynamicprogramming.memoization.string;
 
 import java.util.HashMap;
 

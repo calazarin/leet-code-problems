@@ -1,4 +1,4 @@
-package com.lazarin.googlequestions.interviewprocess;
+package com.lazarin.practicing.leetcode.google.frequentquestions;
 
 //https://leetcode.com/problems/battleships-in-a-board/
 public class BattleshipsInBoard {

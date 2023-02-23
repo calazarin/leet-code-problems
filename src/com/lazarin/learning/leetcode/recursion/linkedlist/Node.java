@@ -1,4 +1,4 @@
-package com.lazarin.learning.recursion.linkedlist;
+package com.lazarin.learning.leetcode.recursion.linkedlist;
 
 public class Node {
 

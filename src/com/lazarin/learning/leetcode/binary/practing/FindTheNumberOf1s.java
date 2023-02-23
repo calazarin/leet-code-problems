@@ -1,4 +1,4 @@
-package com.lazarin.learning.binary.practing;
+package com.lazarin.learning.leetcode.binary.practing;
 
 //Given a number, find the number of 1s in the binary representation of a number
 public class FindTheNumberOf1s {

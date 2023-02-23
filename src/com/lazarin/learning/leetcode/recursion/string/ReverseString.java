@@ -1,4 +1,4 @@
-package com.lazarin.learning.recursion.string;
+package com.lazarin.learning.leetcode.recursion.string;
 
 public class ReverseString {
 

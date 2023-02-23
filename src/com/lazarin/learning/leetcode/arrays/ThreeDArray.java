@@ -1,4 +1,4 @@
-package com.lazarin.learning.arrays;
+package com.lazarin.learning.leetcode.arrays;
 
 public class ThreeDArray {
 

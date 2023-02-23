@@ -1,4 +1,4 @@
-package com.lazarin.learning.tree;
+package com.lazarin.learning.leetcode.tree;
 
 import java.util.ArrayList;
 import java.util.List;

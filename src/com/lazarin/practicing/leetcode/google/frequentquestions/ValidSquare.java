@@ -1,4 +1,4 @@
-package com.lazarin.googlequestions.interviewprocess;
+package com.lazarin.practicing.leetcode.google.frequentquestions;
 
 import java.util.Arrays;
 

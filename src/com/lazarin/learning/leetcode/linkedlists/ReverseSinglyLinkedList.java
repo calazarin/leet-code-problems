@@ -1,4 +1,4 @@
-package com.lazarin.learning.linkedlists;
+package com.lazarin.learning.leetcode.linkedlists;
 
 import com.lazarin.practicing.leetcode.linkedlist.easy.ListNode;
 

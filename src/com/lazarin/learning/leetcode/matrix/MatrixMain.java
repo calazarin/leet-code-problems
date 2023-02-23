@@ -1,4 +1,4 @@
-package com.lazarin.learning.matrix;
+package com.lazarin.learning.leetcode.matrix;
 
 public class MatrixMain {
 

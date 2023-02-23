@@ -1,4 +1,4 @@
-package com.lazarin.learning.graph.disjointsets;
+package com.lazarin.learning.leetcode.graph.disjointsets;
 
 public class DisjointSetMain {
 

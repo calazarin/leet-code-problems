@@ -1,4 +1,4 @@
-package com.lazarin.learning.linkedlists;
+package com.lazarin.learning.leetcode.linkedlists;
 
 public class LinkedNode {
     String value;

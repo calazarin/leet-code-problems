@@ -1,4 +1,4 @@
-package com.lazarin.learning.trie;
+package com.lazarin.learning.leetcode.trie;
 
 import java.util.List;
 

@@ -2,7 +2,7 @@ package com.lazarin.practicing.leetcode.linkedlist.medium;
 
 import com.lazarin.practicing.leetcode.linkedlist.easy.ListNode;
 
-import static com.lazarin.learning.linkedlists.ReverseSinglyLinkedList.printLinkedList;
+import static com.lazarin.learning.leetcode.linkedlists.ReverseSinglyLinkedList.printLinkedList;
 
 public class AddTwoNumbers {
 

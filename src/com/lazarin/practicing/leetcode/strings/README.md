@@ -13,6 +13,7 @@
 9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 10. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 11. [Word Pattern](https://leetcode.com/problems/word-pattern/)
+12. [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
 
 ## Medium
 

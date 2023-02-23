@@ -1,4 +1,4 @@
-package com.lazarin.learning.head.fundamentals;
+package com.lazarin.learning.leetcode.head.fundamentals;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.lazarin.learning.dynamicprogramming.memoization.numbers;
+package com.lazarin.learning.leetcode.dynamicprogramming.memoization.numbers;
 
 import java.util.HashMap;
 import java.util.Map;

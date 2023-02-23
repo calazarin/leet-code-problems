@@ -1,4 +1,4 @@
-package com.lazarin.learning.recursion.divideandconquer;
+package com.lazarin.learning.leetcode.recursion.divideandconquer;
 
 public class MergeSort {
 

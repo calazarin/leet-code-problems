@@ -3,11 +3,11 @@
 This repo stores the result of a personal initiative to study and practice how to solve [Leet Code](https://leetcode.com/) Problems.
 
 Some notes about those problems:
-- `com.lazarin.learning.*` - those packages have all code I created to practice the main data structures/algorithms needed to solve those problems:
+- `com.lazarin.learning.leetcode*` - those packages have all code I created to practice the main data structures/algorithms needed to solve those problems:
   - Arrays (2D and 3D), queues, graphs, stacks, linked lists, trees, trie etc.;
   - Sorting, searching, recursion, heaps etc.
-- `com.lazarin.googlequestions.interviewprocess` - this package stores some problems specifically asked by Google (I picked those problems from 'LeetCode - Google 150 problems' list);
-- `com.lazarin.blindlistandmore.*` - the initial purpose of those packages was to store the famous blind 75 list problems, however, with the time, it started getting bigger and bigger....
+- `com.lazarin.practicing.leetcode.google.frequentquestions` - this package stores some problems specifically asked by Google (I picked those problems from 'LeetCode - Google 150 problems' list);
+- `com.lazarin.practicing.leetcode*` - the initial purpose of those packages was to store the famous blind 75 list problems, however, with the time, it started getting bigger and bigger....
 
 ___
 
@@ -177,6 +177,7 @@ ___
 9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 10. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 11. [Word Pattern](https://leetcode.com/problems/word-pattern/)
+12. [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
 
 #### Medium
 

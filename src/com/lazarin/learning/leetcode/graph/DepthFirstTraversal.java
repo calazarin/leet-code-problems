@@ -1,4 +1,4 @@
-package com.lazarin.learning.graph;
+package com.lazarin.learning.leetcode.graph;
 
 import java.util.ArrayList;
 

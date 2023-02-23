@@ -1,8 +1,8 @@
-package com.lazarin.learning.linkedlists.number;
+package com.lazarin.learning.leetcode.linkedlists.number;
 
 public class LinkedNode {
     int value;
-    com.lazarin.learning.linkedlists.number.LinkedNode next;
+    LinkedNode next;
 
     public LinkedNode(int value) {
         this.value = value;

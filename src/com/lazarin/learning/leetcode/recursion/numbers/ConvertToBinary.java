@@ -1,4 +1,4 @@
-package com.lazarin.learning.recursion.numbers;
+package com.lazarin.learning.leetcode.recursion.numbers;
 
 public class ConvertToBinary {
 

@@ -1,4 +1,4 @@
-package com.lazarin.learning.linkedlists.number;
+package com.lazarin.learning.leetcode.linkedlists.number;
 
 public class FindAtIndex {
 

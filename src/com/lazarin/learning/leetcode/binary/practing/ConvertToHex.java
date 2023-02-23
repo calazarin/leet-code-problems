@@ -1,4 +1,4 @@
-package com.lazarin.learning.binary.practing;
+package com.lazarin.learning.leetcode.binary.practing;
 
 public class ConvertToHex {
 

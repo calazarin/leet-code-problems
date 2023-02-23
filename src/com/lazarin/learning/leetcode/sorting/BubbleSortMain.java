@@ -1,4 +1,4 @@
-package com.lazarin.learning.sorting;
+package com.lazarin.learning.leetcode.sorting;
 
 import java.util.Arrays;
 import java.util.Random;

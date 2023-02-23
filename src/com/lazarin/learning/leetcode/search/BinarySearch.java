@@ -1,4 +1,4 @@
-package com.lazarin.learning.search;
+package com.lazarin.learning.leetcode.search;
 
 public class BinarySearch {
 

@@ -1,4 +1,4 @@
-package com.lazarin.learning.graph;
+package com.lazarin.learning.leetcode.graph;
 
 public class QueueElement {
     Character vertexValue;

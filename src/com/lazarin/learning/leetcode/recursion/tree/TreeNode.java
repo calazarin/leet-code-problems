@@ -1,4 +1,4 @@
-package com.lazarin.learning.recursion.tree;
+package com.lazarin.learning.leetcode.recursion.tree;
 
 public class TreeNode {
     int value;
