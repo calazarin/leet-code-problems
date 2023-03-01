@@ -35,6 +35,8 @@ This section enumerates all problems in this repository and the respective links
 14. [Two Sum Optimized](https://leetcode.com/problems/two-sum/)
 15. [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)
 16. [Add Strings](https://leetcode.com/problems/add-strings/)
+17. [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+18. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 
 ##### Sliding Window (Easy)
 
