@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.matrix.medium;
+package com.lazarin.practicing.leetcode.arrays.medium.matrix;
 
 //https://leetcode.com/problems/rotate-image/
 public class RotateImage {

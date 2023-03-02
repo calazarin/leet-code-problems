@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.matrix.medium;
+package com.lazarin.practicing.leetcode.arrays.medium.matrix;
 
 import java.util.HashSet;
 import java.util.Set;

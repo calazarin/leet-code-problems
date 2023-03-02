@@ -22,6 +22,7 @@ This package contains array related problems
 16. [Add Strings](https://leetcode.com/problems/add-strings/)
 17. [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
 18. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+19. [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 
 ### Sliding Window
 
@@ -29,19 +30,26 @@ This package contains array related problems
 
 ## Medium
 
-18. [Conainter With Most Water](https://leetcode.com/problems/container-with-most-water/)
-19. [Find first and last position of element sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-20. [Find minimum rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-21. [Kth largest element in array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-22. [Max Contiguous subarray sum]()
-23. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/)
-24. [Product of array except itself](https://leetcode.com/problems/product-of-array-except-self/)
-25. [Search 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
-26. [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-27. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-28. [Subsets](https://leetcode.com/problems/subsets/)
-29. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+1. [Conainter With Most Water](https://leetcode.com/problems/container-with-most-water/)
+2. [Find first and last position of element sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+3. [Find minimum rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+4. [Kth largest element in array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+5. [Max Contiguous subarray sum]()
+6. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/)
+7. [Product of array except itself](https://leetcode.com/problems/product-of-array-except-self/)
+8. [Search 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+9. [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
+11. [Subsets](https://leetcode.com/problems/subsets/)
+12. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 
 ### Binary Search
 
-18. [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
+13. [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
+
+### 3D Arrays (Matrix)
+
+14. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+15. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+16. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+17. [Word Search](https://leetcode.com/problems/word-search/)
