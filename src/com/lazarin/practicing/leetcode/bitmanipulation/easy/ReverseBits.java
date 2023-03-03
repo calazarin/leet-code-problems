@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.binary.easy;
+package com.lazarin.practicing.leetcode.bitmanipulation.easy;
 
 //https://leetcode.com/problems/reverse-bits/
 public class ReverseBits {

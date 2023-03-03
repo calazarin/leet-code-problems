@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.binary.practing;
+package com.lazarin.practicing.leetcode.bitmanipulation.practing;
 
 public class RotateBits {
 

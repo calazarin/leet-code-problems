@@ -1,5 +1,6 @@
-package com.lazarin.practicing.leetcode.binary;
+package com.lazarin.practicing.leetcode.bitmanipulation.easy;
 
+//https://leetcode.com/problems/counting-bits/
 public class CountingBits {
 
     public static void main(String args[]){
