@@ -12,6 +12,7 @@ public class LinkedListCycle {
         Output: true
         Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).*/
 
+
         /*Input: head = [1,2], pos = 0
         Output: true
         Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.*/

@@ -17,3 +17,6 @@
 3. [Reorder List](https://leetcode.com/problems/reorder-list/)
 4. [Sort List](https://leetcode.com/problems/sort-list/)
 5. [Remove Nth Node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+6. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+7. [Rotate List](https://leetcode.com/problems/rotate-list/)
+8. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
