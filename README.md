@@ -57,6 +57,7 @@ This section enumerates all problems in this repository and the respective links
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
 11. [Subsets](https://leetcode.com/problems/subsets/)
 12. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+13. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
 #### Binary Search
 
@@ -77,6 +78,10 @@ ___
 
 1. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 2. [Permutations](https://leetcode.com/problems/permutations/)
+
+### Hard
+
+1. [N Queens](https://leetcode.com/problems/n-queens/)
 
 ___
 
@@ -181,6 +186,7 @@ ___
 6. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 7. [Rotate List](https://leetcode.com/problems/rotate-list/)
 8. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+9. [Partition List](https://leetcode.com/problems/partition-list/)
 
 ___
 

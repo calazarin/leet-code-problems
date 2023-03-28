@@ -20,3 +20,4 @@
 6. [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 7. [Rotate List](https://leetcode.com/problems/rotate-list/)
 8. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+9. [Partition List](https://leetcode.com/problems/partition-list/)

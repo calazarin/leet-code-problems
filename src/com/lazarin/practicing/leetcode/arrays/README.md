@@ -26,7 +26,7 @@ This package contains array related problems
 
 ### Sliding Window
 
-17. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
+1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
 
 ## Medium
 
@@ -42,6 +42,7 @@ This package contains array related problems
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
 11. [Subsets](https://leetcode.com/problems/subsets/)
 12. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+13. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
 ### Binary Search
 
