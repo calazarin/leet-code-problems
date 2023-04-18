@@ -19,7 +19,7 @@ public class NQueens {
 
         System.out.print("\n\n");
 
-        var resp3 = nq.solveNQueens2(4);
+        var resp3 = nq.solveNQueens3(4);
         printAnswers(resp3);
 
 
@@ -70,6 +70,7 @@ public class NQueens {
 
         for(int c = 0; c < n; c++){
 
+            //validation function
             if(cols.contains(c) || posDiag.contains(r + c) || negDiag.contains(r - c)){
                 continue; //this is our bound function
             }
