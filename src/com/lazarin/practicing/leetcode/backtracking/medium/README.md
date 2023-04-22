@@ -11,6 +11,7 @@
 3. [All Paths from Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
 4. [Combinations](https://leetcode.com/problems/combinations/)
 5. [Permutations II](https://leetcode.com/problems/permutations-ii/)
+6. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
 
 ## Hard
 
