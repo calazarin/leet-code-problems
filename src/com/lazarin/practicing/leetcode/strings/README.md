@@ -15,11 +15,13 @@
 11. [Word Pattern](https://leetcode.com/problems/word-pattern/)
 12. [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
 13. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
+14. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+15. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 
 ## Medium
 
 1. [Encode and decode Strings](https://leetcode.com/problems/encode-and-decode-strings)
 2. [Count and Say](https://leetcode.com/problems/count-and-say/)
-4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)

@@ -55,9 +55,8 @@ This section enumerates all problems in this repository and the respective links
 8. [Search 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 9. [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-11. [Subsets](https://leetcode.com/problems/subsets/)
-12. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-13. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+11. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
 #### Binary Search
 
@@ -86,6 +85,9 @@ ___
 4. [Combinations](https://leetcode.com/problems/combinations/)
 5. [Permutations II](https://leetcode.com/problems/permutations-ii/)
 6. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+7. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+8. [Subsets](https://leetcode.com/problems/subsets/)
+9. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 
 ### Hard
 
@@ -236,14 +238,17 @@ ___
 10. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
 11. [Word Pattern](https://leetcode.com/problems/word-pattern/)
 12. [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)
+13. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
+14. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+15. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 
 #### Medium
 
 1. [Encode and decode Strings](https://leetcode.com/problems/encode-and-decode-strings)
 2. [Count and Say](https://leetcode.com/problems/count-and-say/)
-4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ___
 

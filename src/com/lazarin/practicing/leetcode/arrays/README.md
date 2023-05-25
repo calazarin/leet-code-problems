@@ -40,9 +40,8 @@ This package contains array related problems
 8. [Search 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 9. [Search Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
-11. [Subsets](https://leetcode.com/problems/subsets/)
-12. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-13. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+11. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 
 ### Binary Search
 

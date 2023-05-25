@@ -12,6 +12,9 @@
 4. [Combinations](https://leetcode.com/problems/combinations/)
 5. [Permutations II](https://leetcode.com/problems/permutations-ii/)
 6. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+7. [Subsets II](https://leetcode.com/problems/subsets-ii/)
+8. [Subsets](https://leetcode.com/problems/subsets/)
+9. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 
 ## Hard
 

@@ -20,6 +20,9 @@ public class ValidPalindrome {
     //T: O(n); S: O(1)
     public static boolean isPalindrome(String phrase) {
 
+        //regex:
+        //^ - not those characters
+        //replace all characters that are not a-z, A-Z and O-9 by nothing
         phrase=phrase.replaceAll("[^a-zA-Z0-9]", "");
         phrase=phrase.toLowerCase();
 
