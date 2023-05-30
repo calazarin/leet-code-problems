@@ -38,6 +38,8 @@ This section enumerates all problems in this repository and the respective links
 17. [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
 18. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 19. [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+20. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
+21. [Can place flowers](https://leetcode.com/problems/can-place-flowers/)
 
 ##### Sliding Window (Easy)
 
