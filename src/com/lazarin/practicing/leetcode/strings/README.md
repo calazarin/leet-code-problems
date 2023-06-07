@@ -17,6 +17,7 @@
 13. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
 14. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 15. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
+16. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
 
 ## Medium
 
@@ -25,3 +26,4 @@
 3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+6. [String Compression](https://leetcode.com/problems/string-compression)

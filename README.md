@@ -47,7 +47,7 @@ This section enumerates all problems in this repository and the respective links
 
 #### Medium
 
-1. [Conainter With Most Water](https://leetcode.com/problems/container-with-most-water/)
+1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 2. [Find first and last position of element sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 3. [Find minimum rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 4. [Kth largest element in array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
@@ -59,6 +59,7 @@ This section enumerates all problems in this repository and the respective links
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
 11. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 
 #### Binary Search
 
@@ -243,6 +244,7 @@ ___
 13. [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)
 14. [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 15. [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
+16. [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)
 
 #### Medium
 
@@ -251,6 +253,7 @@ ___
 3. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+6. [String Compression](https://leetcode.com/problems/string-compression)
 
 ___
 

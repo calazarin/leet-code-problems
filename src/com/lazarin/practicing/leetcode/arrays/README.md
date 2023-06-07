@@ -32,7 +32,7 @@ This package contains array related problems
 
 ## Medium
 
-1. [Conainter With Most Water](https://leetcode.com/problems/container-with-most-water/)
+1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 2. [Find first and last position of element sorted array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 3. [Find minimum rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 4. [Kth largest element in array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
@@ -44,6 +44,7 @@ This package contains array related problems
 10. [Sort Colors](https://leetcode.com/problems/sort-colors/)
 11. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
+13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 
 ### Binary Search
 
