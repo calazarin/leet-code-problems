@@ -24,7 +24,8 @@ This package contains array related problems
 18. [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 19. [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 20. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
-21. [Can place flowers](//https://leetcode.com/problems/can-place-flowers/)
+21. [Can place flowers](https://leetcode.com/problems/can-place-flowers/)
+22. [Move Zeroes](https://leetcode.com/problems/move-zeroes)
 
 ### Sliding Window
 
@@ -45,6 +46,7 @@ This package contains array related problems
 11. [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
+14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
 
 ### Binary Search
 

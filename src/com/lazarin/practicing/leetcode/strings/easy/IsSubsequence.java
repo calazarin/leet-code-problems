@@ -16,6 +16,7 @@ public class IsSubsequence {
         System.out.println(is.isSubsequence("axc","ahbgdc"));
     }
 
+    //approach - 2 pointers i and j
     //T: O(m+n)
     //S: O(1)
     public boolean isSubsequence(String s, String t) {

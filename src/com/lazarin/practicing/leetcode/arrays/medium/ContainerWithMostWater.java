@@ -5,9 +5,22 @@ public class ContainerWithMostWater {
 
     public static void main(String args[]){
 
+        ContainerWithMostWater solution = new ContainerWithMostWater();
+
+     /*   Input: height = [1,8,6,2,5,4,8,3,7]
+        Output: 49*/
+        System.out.println(solution.maxArea2(new int[]{1,8,6,2,5,4,8,3,7}));
+
+        /*Input: height = [1,1]
+        Output: 1*/
+        System.out.println(solution.maxArea2(new int[]{1,1}));
+
+        /*Input: height = [1,2,1]
+        Output: 2*/
+        System.out.println(solution.maxArea2(new int[]{1,2, 1}));
     }
 
-    //approach 1
+    //approach 1 - brute force
     //T: O (n^2)
     //S: O(1)
     public int maxArea(int[] height) {
@@ -17,6 +30,7 @@ public class ContainerWithMostWater {
 
             //setup right pointer
             for(int j = i + 1; j < height.length; j++){
+
                 var currentArea = Math.min(height[i], height[j]) * (j - i);
                 max = Math.max(max, currentArea);
             }
@@ -24,7 +38,7 @@ public class ContainerWithMostWater {
         return max;
     }
 
-    //approach 2
+    //approach 2 - most optimal
     //T: O (N) - linear
     //S: O(1) - we do not need any extra space
     public int maxArea2(int[] height) {
