@@ -42,10 +42,6 @@ This section enumerates all problems in this repository and the respective links
 21. [Can place flowers](https://leetcode.com/problems/can-place-flowers/)
 22. [Move Zeroes](https://leetcode.com/problems/move-zeroes)
 
-##### Sliding Window (Easy)
-
-1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
-
 #### Medium
 
 1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
@@ -63,11 +59,29 @@ This section enumerates all problems in this repository and the respective links
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
 
-#### Binary Search
+---
+
+### Sliding Window
+#### Easy
+
+1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
+2. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)
+
+#### Medium
+
+1. [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
+2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+3. [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
+
+___
+
+### Binary Search
 
 1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
 
-#### 3D Arrays (Matrix)
+---
+
+### 3D Arrays (Matrix)
 
 1. [Rotate Image](https://leetcode.com/problems/rotate-image/)
 2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)

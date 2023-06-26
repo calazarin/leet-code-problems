@@ -27,10 +27,6 @@ This package contains array related problems
 21. [Can place flowers](https://leetcode.com/problems/can-place-flowers/)
 22. [Move Zeroes](https://leetcode.com/problems/move-zeroes)
 
-### Sliding Window
-
-1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
-
 ## Medium
 
 1. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
@@ -47,6 +43,18 @@ This package contains array related problems
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
+
+### Sliding Window
+#### Easy
+
+1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
+2. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)
+
+#### Medium
+
+1. [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
+2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+3. [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
 
 ### Binary Search
 
