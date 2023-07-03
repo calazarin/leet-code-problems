@@ -13,9 +13,9 @@ public class DetermineIfTwoStringsAreClose {
 
     //T: O(nlogn)
     //S: O(N)
-    public boolean closeStrings(String world1, String world2){
+    public boolean closeStrings(String word1, String word2){
 
-        if(world1.length() !=  world2.length()) return false;
+        if(word1.length() !=  word2.length()) return false;
 
         int[] counter1 = new int[26];
         int[] counter2 = new int[26];
@@ -23,12 +23,12 @@ public class DetermineIfTwoStringsAreClose {
         Set<Character> set1 = new HashSet<>();
         Set<Character> set2 = new HashSet<>();
 
-        for(char c : world1.toCharArray()){
+        for(char c : word1.toCharArray()){
             counter1[c - 'a']++; //counting the frequency of each character
             set1.add(c); //make sure both strings have same characters
         }
 
-        for(char c : world2.toCharArray()){
+        for(char c : word2.toCharArray()){
             counter2[c - 'a']++; //counting the frequency of each character
             set2.add(c); //make sure both strings have same characters
         }
@@ -41,34 +41,32 @@ public class DetermineIfTwoStringsAreClose {
 
     //T: O(nlogn)
     //S: O(N)
-    public boolean closeStrings2(String world1, String world2) {
-        {
-            if (world1.length() != world2.length()) return false;
+    public boolean closeStrings2(String word1, String word2) {
+        if (word1.length() != word2.length()) return false;
 
-            HashMap<Character, Integer> world1Map = new HashMap<>();
-            HashMap<Character, Integer> world2Map = new HashMap<>();
+        HashMap<Character, Integer> word1Map = new HashMap<>();
+        HashMap<Character, Integer> word2Map = new HashMap<>();
 
-            for (char c : world1.toCharArray()) {
-                world1Map.put(c, world1Map.getOrDefault(c, 0) + 1);
-            }
-
-            for (char c : world2.toCharArray()) {
-                world2Map.put(c, world2Map.getOrDefault(c, 0) + 1);
-            }
-
-            //first operation: both strings must have the same characters
-            if (!world1Map.keySet().equals(world2Map.keySet())) {
-                return false;
-            }
-
-
-            //second operation: two different characters with same frequency
-            List<Integer> freqList1 = new ArrayList<>(world1Map.values());
-            Collections.sort(freqList1);//O(logn)
-            List<Integer> freqList2 = new ArrayList<>(world2Map.values());
-            Collections.sort(freqList2); //O(logn)
-
-            return freqList1.equals(freqList2);
+        for (char c : word1.toCharArray()) {
+            word1Map.put(c, word1Map.getOrDefault(c, 0) + 1);
         }
+
+        for (char c : word2.toCharArray()) {
+            word2Map.put(c, word2Map.getOrDefault(c, 0) + 1);
+        }
+
+        //first operation: both strings must have the same characters
+        if (!word1Map.keySet().equals(word2Map.keySet())) {
+            return false;
+        }
+
+
+        //second operation: two different characters with same frequency
+        List<Integer> freqList1 = new ArrayList<>(word1Map.values());
+        Collections.sort(freqList1);//O(logn)
+        List<Integer> freqList2 = new ArrayList<>(word2Map.values());
+        Collections.sort(freqList2); //O(logn)
+
+        return freqList1.equals(freqList2);
     }
 }
