@@ -26,6 +26,10 @@ This package contains array related problems
 20. [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies)
 21. [Can place flowers](https://leetcode.com/problems/can-place-flowers/)
 22. [Move Zeroes](https://leetcode.com/problems/move-zeroes)
+23. [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)
+24. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)
+25. [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays)
+26. [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)
 
 ## Medium
 

@@ -27,3 +27,4 @@
 4. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 6. [String Compression](https://leetcode.com/problems/string-compression)
+7. [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
