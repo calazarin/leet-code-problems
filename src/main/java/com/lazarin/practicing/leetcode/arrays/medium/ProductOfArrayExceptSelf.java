@@ -1,26 +1,12 @@
 package com.lazarin.practicing.leetcode.arrays.medium;
 
-import java.util.Arrays;
-
 //https://leetcode.com/problems/product-of-array-except-self/
 public class ProductOfArrayExceptSelf {
-    
-    public static void main(String args[]){
-        /*Input: nums = [1,2,3,4]
-        Output: [24,12,8,6]*/
-        var resp = productExceptSelf(new int[]{1,2,3,4});
-        System.out.println(Arrays.toString(resp));
-
-      /*  Input: nums = [-1,1,0,-3,3]
-        Output: [0,0,9,0,0]*/
-        var resp2 = productExceptSelf(new int[]{-1,1,0,-3,3});
-        System.out.println(Arrays.toString(resp2));
-    }
 
     //approach 1 - suffix and prefix with extra memory
     //T: O(N)
     //S: O(N)
-    public static int[] productExceptSelf(int[] nums) {
+    public int[] productExceptSelf(int[] nums) {
 
         int n = nums.length;
 
@@ -46,7 +32,7 @@ public class ProductOfArrayExceptSelf {
     //approach 2 - suffix and prefix without extra memory
     //T: O(N)
     //S: (1) - output array does not count as extra space
-    public static int[] productExceptSelf2(int[] nums) {
+    public int[] productExceptSelf2(int[] nums) {
 
         int n = nums.length;
 

@@ -7,18 +7,6 @@ import java.util.Map;
 //https://leetcode.com/problems/max-number-of-k-sum-pairs
 public class MaxNumberOfKsumPairs {
 
-    public static void main(String args[]){
-
-        MaxNumberOfKsumPairs solution = new MaxNumberOfKsumPairs();
-        /*Input: nums = [3,1,3,4,3], k = 6
-        Output: 1*/
-        System.out.println(solution.maxOperations2(new int[]{3,1,3,4,3}, 6));
-
-        /*Input: nums = [1,2,3,4], k = 5
-        Output: 2*/
-        System.out.println(solution.maxOperations3(new int[]{1,2,3,4}, 5));
-    }
-
     //approach 1
     //T: O(n^2)
     //S: O(n)

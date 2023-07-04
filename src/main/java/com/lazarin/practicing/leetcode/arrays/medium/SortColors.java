@@ -17,15 +17,4 @@ public class SortColors {
         }
     }
 
-    //approach 2
-    //bucket sort => T: O(n); S:O(1)
-    public void sortColors2(int[] nums){
-
-    }
-
-    //approach 3
-    //only 1 single pass
-    public void sortColors3(int[] nums){
-
-    }
 }

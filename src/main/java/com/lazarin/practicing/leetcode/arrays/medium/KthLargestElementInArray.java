@@ -3,15 +3,6 @@ package com.lazarin.practicing.leetcode.arrays.medium;
 //https://leetcode.com/problems/kth-largest-element-in-an-array/
 public class KthLargestElementInArray {
 
-    public static void main(String args[]){
-
-       /* Input: nums = [3,2,1,5,6,4], k = 2
-        Output: 5*/
-
-        /*Input: nums = [3,2,3,1,2,4,5,5,6], k = 4
-        Output: 4*/
-    }
-
     //approach 1 - O(nlogn)
     public int findKthLargest(int[] nums, int k) {
         int[] sortedArr = mergeSort(nums);
@@ -47,13 +38,6 @@ public class KthLargestElementInArray {
         return merge(leftS, rightS);
     }
 
-// 0 1 2 3 4 5
-//[3,2,1,5,6,4]
-//right = 5
-//mid = 3
-//left=[3,2,1]
-//right=[5,6,4]
-
     private int[] merge(int[] left, int[] right){
 
         int i = 0, j = 0, k = 0;
@@ -83,22 +67,5 @@ public class KthLargestElementInArray {
         }
 
         return merged;
-    }
-
-    //approach 2 -
-    //with priority queue (min/max) heap
-    //max heap = O(N + klogn) => n to build, k to remove and long to heapfy)
-    public int findKthLargest2(int[] nums, int k) {
-
-
-        return -1;
-    }
-
-    //approach 3 -
-    //quick select - O(n)
-    public int findKthLargest3(int[] nums, int k) {
-
-
-        return -1;
     }
 }

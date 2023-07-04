@@ -1,31 +1,9 @@
 package com.lazarin.practicing.leetcode.arrays.medium;
 
-import java.util.Arrays;
-
 //https://leetcode.com/problems/surrounded-regions/
 public class SurroundedRegions {
 
-    public static void main(String args[]){
-
-        char[][] input = new char[][] {
-            {
-                'X', 'X', 'X', 'X'
-            },
-            {
-                'X', 'O', 'O', 'X'
-            },
-            {
-                'X', 'X', 'O', 'X'
-            },
-            {
-                'X', 'O', 'X', 'X'
-            }
-        };
-        solve(input);
-        System.out.println(Arrays.toString(input));
-    }
-
-    public static void solve(char[][] board) {
+    public void solve(char[][] board) {
         for(int i = 0; i < board.length; i++){
             for(int j = 0; j < board[i].length; j++){
                 if(board[i][j] == 'O'){
@@ -35,7 +13,7 @@ public class SurroundedRegions {
         }
     }
 
-    private static void flipRegion(int i, int j, char[][] board){
+    private void flipRegion(int i, int j, char[][] board){
         //check if is on the border
         if (i > 0 && i < board.length - 1 && j > 0 && j < board[i].length - 1){
             board[i][j] = 'X';
@@ -43,7 +21,7 @@ public class SurroundedRegions {
     }
 
     //T: O(n*m)
-    public static void solve2(char[][] board) {
+    public void solve2(char[][] board) {
         int rows = board.length;
         int cols = board[0].length;
 
@@ -77,7 +55,7 @@ public class SurroundedRegions {
         }
     }
 
-    private static void dfs(int r, int c, char[][] board){
+    private void dfs(int r, int c, char[][] board){
         if(r < 0 || c < 0 || r == board.length || c == board[r].length ||
         board[r][c] != 'O'){
             return; //best case

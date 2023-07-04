@@ -3,23 +3,6 @@ package com.lazarin.practicing.leetcode.arrays.medium;
 //https://leetcode.com/problems/container-with-most-water/
 public class ContainerWithMostWater {
 
-    public static void main(String args[]){
-
-        ContainerWithMostWater solution = new ContainerWithMostWater();
-
-     /*   Input: height = [1,8,6,2,5,4,8,3,7]
-        Output: 49*/
-        System.out.println(solution.maxArea2(new int[]{1,8,6,2,5,4,8,3,7}));
-
-        /*Input: height = [1,1]
-        Output: 1*/
-        System.out.println(solution.maxArea2(new int[]{1,1}));
-
-        /*Input: height = [1,2,1]
-        Output: 2*/
-        System.out.println(solution.maxArea2(new int[]{1,2, 1}));
-    }
-
     //approach 1 - brute force
     //T: O (n^2)
     //S: O(1)

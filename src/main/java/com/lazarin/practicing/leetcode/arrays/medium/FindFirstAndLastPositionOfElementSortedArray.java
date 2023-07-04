@@ -1,33 +1,8 @@
 package com.lazarin.practicing.leetcode.arrays.medium;
 
-import java.util.Arrays;
 
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class FindFirstAndLastPositionOfElementSortedArray {
-
-    public static void main(String args[]){
-
-        FindFirstAndLastPositionOfElementSortedArray
-                fflpesa = new FindFirstAndLastPositionOfElementSortedArray();
-
-        //nums = [5,7,7,8,8,10]
-        //target = 8
-        //output = [3,4]
-        System.out.print(Arrays.toString(
-                fflpesa.searchRange2(new int[]{5,7,7,8,8,10}, 8)));
-
-        //nums = [5,5,7,7,8,8,10]
-        //target = 6
-        //output = [-1,-1]
-        System.out.print(Arrays.toString(
-                fflpesa.searchRange(new int[]{5,5,7,7,8,8,10}, 6)));
-
-        //nums = []
-        //target = 0
-        //output = [-1,-1]
-        System.out.print(Arrays.toString(
-                fflpesa.searchRange(new int[]{}, 0)));
-    }
 
     //T: O(N)
     //S: O(1)

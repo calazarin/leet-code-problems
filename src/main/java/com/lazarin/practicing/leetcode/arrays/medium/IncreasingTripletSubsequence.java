@@ -3,25 +3,6 @@ package com.lazarin.practicing.leetcode.arrays.medium;
 //https://leetcode.com/problems/increasing-triplet-subsequence/
 public class IncreasingTripletSubsequence {
 
-    public static void main(String args[]){
-
-        IncreasingTripletSubsequence solution = new IncreasingTripletSubsequence();
-
-        /*Input: nums = [1,2,3,4,5]
-        Output: true
-        Explanation: Any triplet where i < j < k is valid.*/
-        System.out.println(solution.increasingTriplet2(new int[]{1,2,3,4,5}));
-
-      /*  Input: nums = [5,4,3,2,1]
-        Output: false
-        Explanation: No triplet exists.*/
-        System.out.println(solution.increasingTriplet2(new int[]{5,4,3,2,1}));
-
-      /*  Input: nums = [2,1,5,0,4,6]
-        Output: true
-        Explanation: The triplet (3, 4, 5) is valid because nums[3] == 0 < nums[4] == 4 < nums[5] == 6.*/
-        System.out.println(solution.increasingTriplet(new int[]{2,1,5,0,4,6}));
-    }
 
     //approach 1 - brute force
     //T: O (n^3)
