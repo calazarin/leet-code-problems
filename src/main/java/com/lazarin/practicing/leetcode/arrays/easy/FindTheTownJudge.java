@@ -8,21 +8,6 @@ import java.util.Map;
 //https://leetcode.com/problems/find-the-town-judge/description/
 public class FindTheTownJudge{
 
-    public static void main(String args[]){
-
-        /*Input: n = 2, trust = [[1,2]]
-        Output: 2*/
-        System.out.println(findJudge2(2, new int[][]{{1,2}}));
-
-        /*Input: n = 3, trust = [[1,3],[2,3]]
-        Output: 3*/
-        System.out.println(findJudge2(3, new int[][]{{1,3}, {2,3}}));
-
-       /* Input: n = 3, trust = [[1,3],[2,3],[3,1]]
-        Output: -1*/
-        System.out.println(findJudge2(3, new int[][]{{1,3}, {2,3}, {3,1}}));
-    }
-
     //T: O(N) where N is the amount of items in the trust matrix
     //S: O(1) as I don't use extra space
     public int findJudge(int n, int[][] trust) {
@@ -60,7 +45,7 @@ public class FindTheTownJudge{
     }
 
     //approach 2
-    public static int findJudge2(int n, int[][] trust) {
+    public int findJudge2(int n, int[][] trust) {
         int[] count = new int[n+1];
         for(int[] t : trust){
             count[t[0]]--;

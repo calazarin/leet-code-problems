@@ -4,23 +4,6 @@ package com.lazarin.practicing.leetcode.arrays.easy;
 //Facebook | Easy | String
 public class AddStrings {
 
-    public static void main(String args[]){
-        AddStrings ads = new AddStrings();
-        /*
-        Input: num1 = "11", num2 = "123"
-        Output: "134"
-        */
-        System.out.println(ads.addStrings("11", "123"));
-
-       /* Input: num1 = "456", num2 = "77"
-        Output: "533"*/
-        System.out.println(ads.addStrings("456", "77"));
-
-       /* Input: num1 = "0", num2 = "0"
-        Output: "0"*/
-        System.out.println(ads.addStrings("0", "0"));
-    }
-
     //T: O(m+n)
     //S: O(m+n)
     public String addStrings(String num1, String num2) {

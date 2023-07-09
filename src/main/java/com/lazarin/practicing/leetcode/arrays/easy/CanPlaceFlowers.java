@@ -3,19 +3,6 @@ package com.lazarin.practicing.leetcode.arrays.easy;
 //https://leetcode.com/problems/can-place-flowers/
 public class CanPlaceFlowers {
 
-    public static void main(String args[]) {
-
-        CanPlaceFlowers solution = new CanPlaceFlowers();
-
-        /*Input: flowerbed = [1,0,0,0,1], n = 1
-        Output: true*/
-        System.out.println(solution.canPlaceFlowers(new int[]{1,0,0,0,1}, 1));
-
-      /*  Input: flowerbed = [1,0,0,0,1], n = 2
-        Output: false*/
-        System.out.println(solution.canPlaceFlowers(new int[]{1,0,0,0,1}, 2));
-    }
-
     //T: O(N)
     //S: O(1)
     public boolean canPlaceFlowers(int[] flowerbed, int n) {

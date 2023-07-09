@@ -9,27 +9,6 @@ import java.util.Set;
 //https://leetcode.com/problems/find-the-difference-of-two-arrays
 public class FindTheDifferenceOfTwoArrays {
 
-    public static void main(String args[]){
-
-        FindTheDifferenceOfTwoArrays solution =
-                new FindTheDifferenceOfTwoArrays();
-
-        /*Input: nums1 = [1,2,3], nums2 = [2,4,6]
-        Output: [[1,3],[4,6]]*/
-        solution.findDifference(new int[]{1,2,3}, new int[]{2,4,6});
-
-        /*Input: nums1 = [1,2,3,3], nums2 = [1,1,2,2]
-        Output: [[3],[]]*/
-        solution.findDifference(new int[]{1,2,3,3}, new int[]{1,1,2,2});
-
-        /* Input: nums1 = [-80,-15,-81,-28,-61,63,14,-45,-35,-10]
-                  nums2 = [-1,-40,-44,41,10,-43,69,10,2]
-           Output: [[-81,-35,-10,-28,-61,-45,-15,14,-80,63],[-1,2,69,-40,41,10,-43,-44]]
-         */
-        solution.findDifference(new int[]{-80,-15,-81,-28,-61,63,14,-45,-35,-10},
-                new int[]{-1,-40,-44,41,10,-43,69,10,2});
-    }
-
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
 
         List<List<Integer>> answer = new ArrayList<>();

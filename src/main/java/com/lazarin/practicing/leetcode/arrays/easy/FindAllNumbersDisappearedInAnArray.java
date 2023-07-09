@@ -8,23 +8,6 @@ import java.util.Set;
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 public class FindAllNumbersDisappearedInAnArray {
 
-    public static void main(String args[]){
-
-        FindAllNumbersDisappearedInAnArray fnda = new FindAllNumbersDisappearedInAnArray();
-
-      /*  Input: nums = [4,3,2,7,8,2,3,1]
-        Output: [5,6]*/
-        List<Integer> resp = fnda.findDisappearedNumbers2(new int[]{4,3,2,7,8,2,3,1});
-        resp.forEach(System.out::println);
-
-        System.out.print("\n\n\n");
-
-      /*  Input: nums = [1,1]
-        Output: [2]*/
-        List<Integer> resp2 = fnda.findDisappearedNumbers(new int[]{1,1});
-        resp.forEach(System.out::println);
-    }
-
     //approach 1 -
     //T: O(N)
     //S: O(N)
