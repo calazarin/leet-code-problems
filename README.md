@@ -62,6 +62,7 @@ This section enumerates all problems in this repository and the respective links
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
+15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 
 ---
 
@@ -275,6 +276,7 @@ ___
 5. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 6. [String Compression](https://leetcode.com/problems/string-compression)
 7. [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
+8. [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
 
 ___
 

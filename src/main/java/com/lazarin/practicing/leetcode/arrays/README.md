@@ -47,6 +47,7 @@ This package contains array related problems
 12. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/)
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
+15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 
 ### Sliding Window
 #### Easy
