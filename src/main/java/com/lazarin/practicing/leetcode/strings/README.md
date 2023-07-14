@@ -29,3 +29,4 @@
 6. [String Compression](https://leetcode.com/problems/string-compression)
 7. [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
 8. [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
+9. [Dota2 Senate](https://leetcode.com/problems/dota2-senate/)

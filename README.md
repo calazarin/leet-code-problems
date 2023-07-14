@@ -63,6 +63,7 @@ This section enumerates all problems in this repository and the respective links
 13. [Increasing Triplet Subsequence](https://https://leetcode.com/problems/increasing-triplet-subsequence)
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
 15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
+16. [Decode String](https://leetcode.com/problems/decode-string/)
 
 ---
 
@@ -137,6 +138,7 @@ ___
 
 1. [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 2. [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+3. [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls)
 
 #### Medium
 
@@ -277,6 +279,7 @@ ___
 6. [String Compression](https://leetcode.com/problems/string-compression)
 7. [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
 8. [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
+9. [Dota2 Senate](https://leetcode.com/problems/dota2-senate/)
 
 ___
 
