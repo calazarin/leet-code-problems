@@ -38,7 +38,6 @@ public class Dota2Senate {
 
         }
 
-
         return rQueue.isEmpty() ? "Dire" : "Radiant";
     }
 }

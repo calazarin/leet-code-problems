@@ -6,14 +6,6 @@ import java.util.Map;
 //https://leetcode.com/problems/majority-element/
 public class MajorityElement {
 
-    public static void main(String args[]){
-        /*Input: nums = [3,2,3]
-        Output: 3*/
-
-       /* Input: nums = [2,2,1,1,1,2,2]
-        Output: 2*/
-    }
-
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int maj = 0, maxCounter = 0;

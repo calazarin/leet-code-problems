@@ -7,52 +7,6 @@ import java.util.Set;
 //https://leetcode.com/problems/island-perimeter/
 public class IslandPerimeter {
 
-    public static void main(String args[]){
-
-        /*Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
-        Output: 16
-        Explanation: The perimeter is the 16 yellow stripes in the image above.*/
-
-        IslandPerimeter isp = new IslandPerimeter();
-        System.out.println(
-                isp.islandPerimeter(new int[][]{
-                        {0,1,0,0},{1,1,1,0},{0,1,0,0}, {1,1,0,0}
-                }));
-
-        System.out.println(
-                isp.islandPerimeter2(new int[][]{
-                        {0,1,0,0},{1,1,1,0},{0,1,0,0}, {1,1,0,0}
-                }));
-
-     /*   Input: grid = [[1]]
-        Output: 4*/
-        System.out.println(
-                isp.islandPerimeter(new int[][]{
-                        {1}
-                }));
-        System.out.println(
-                isp.islandPerimeter2(new int[][]{
-                        {1}
-                }));
-
-       /* Input: grid = [[1,0]]
-        Output: 4*/
-        System.out.println(
-                isp.islandPerimeter(new int[][]{
-                        {0,1}
-                }));
-        System.out.println(
-                isp.islandPerimeter2(new int[][]{
-                        {0,1}
-                }));
-    }
-    /*
-        0-1-0-0 => 0,0 -> 0,1 -> 0,2 -> 0,3
-        1-1-1-0 => 1,0 -> 1,1 -> 1,2 -> 1,3
-        0-1-0-0 => 2,0 -> 2,1 -> 2,2 -> 2,3
-
-     */
-
     //approach 1 - brute force
     //T: O(n*m)
     //S: O(1)

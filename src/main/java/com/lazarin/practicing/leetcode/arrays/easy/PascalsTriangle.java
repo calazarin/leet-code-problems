@@ -6,27 +6,7 @@ import java.util.List;
 //https://leetcode.com/problems/pascals-triangle/
 public class PascalsTriangle {
 
-    public static void main(String args[]){
-
-        /*Input: numRows = 5
-        Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]*/
-        var resp = generate(5);
-        print(resp);
-
-       /* Input: numRows = 1
-        Output: [[1]]*/
-        var resp2 = generate(1);
-        print(resp2);
-    }
-
-    //l = 0
-    //r = 1
-    //i = 4;
-    //i - 2 = 2
-    //row = 2
-    //j = 1
-
-    public static List<List<Integer>> generate(int numRows) {
+    public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> pascalT = new ArrayList<>();
         for(int i = 1; i <= numRows; i++){
             List<Integer> row = new ArrayList<>();
@@ -48,7 +28,7 @@ public class PascalsTriangle {
         return pascalT;
     }
 
-    public static void print(List<List<Integer>> toBePrinted){
+    public void print(List<List<Integer>> toBePrinted){
         for(int i = 0 ; i < toBePrinted.size(); i++){
             toBePrinted.get(i).stream().forEach(x -> System.out.print(x+" - "));
             System.out.print("\n");
@@ -57,7 +37,7 @@ public class PascalsTriangle {
 
     //T: O(numsRows^2)
     //S: O(1) output does not count as memory sage
-    public static List<List<Integer>> generate2(int numRows) {
+    public List<List<Integer>> generate2(int numRows) {
 
         List<List<Integer>> triangle = new ArrayList<>();
         triangle.add(new ArrayList<>());

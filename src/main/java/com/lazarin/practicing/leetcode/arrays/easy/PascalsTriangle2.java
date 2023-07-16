@@ -4,27 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //https://leetcode.com/problems/pascals-triangle-ii/description/
-public class PascalTriangle2 {
-
-    public static void main(String args[]) {
-
-    }
-
-    //amount of elements in a row:
-    //row index + 1
-    //row: 0; amount: 1
-    //row: 1; amount: 2
-    //row: 2; amount: 3
-    //row: 3; amount: 4
-    //row: 4; amount: 5
-
-    //1 => row: 0; amount 1
-    //1-1 => row: 1; amount: 2
-    // 1-2-1 => row: 2;  amount: 3
-    // 1-3-3-1 =>  row: 3; amount: 4
-    //1-4-6-4-1 => row: 4; amount: 5
-    // 1-5-10-10-5-1 => row: 5; amount 6
-    //1-6-15-20-15-6-1=> row: 6; amount 7
+public class PascalsTriangle2 {
 
     public List<Integer> getRow(int rowIndex) {
 
