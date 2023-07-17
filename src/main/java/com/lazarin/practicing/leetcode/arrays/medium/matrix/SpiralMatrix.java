@@ -6,10 +6,6 @@ import java.util.List;
 //https://leetcode.com/problems/spiral-matrix/
 public class SpiralMatrix {
 
-    public static void main(String args[]){
-
-    }
-
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> output = new ArrayList<>();
 

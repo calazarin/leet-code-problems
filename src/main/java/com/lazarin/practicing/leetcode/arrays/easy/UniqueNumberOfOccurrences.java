@@ -8,24 +8,6 @@ import java.util.Set;
 //https://leetcode.com/problems/unique-number-of-occurrences
 public class UniqueNumberOfOccurrences {
 
-    public static void main(String args[]){
-
-        UniqueNumberOfOccurrences solution =
-                new UniqueNumberOfOccurrences();
-
-      /*  Input: arr = [1,2,2,1,1,3]
-        Output: true*/
-        System.out.println(solution.uniqueOccurrences(new int[]{1,2,2,1,1,3}));
-
-       /* Input: arr = [1,2]
-        Output: false*/
-        System.out.println(solution.uniqueOccurrences(new int[]{1,2}));
-
-       /* Input: arr = [-3,0,1,-3,1,1,1,-3,10,0]
-        Output: true*/
-        System.out.println(solution.uniqueOccurrences(new int[]{-3,0,1,-3,1,1,1,-3,10,0}));
-    }
-
     //T: O(N)
     //S: O(N)
     public boolean uniqueOccurrences(int[] arr) {

@@ -6,8 +6,6 @@ import java.util.Set;
 //https://leetcode.com/problems/set-matrix-zeroes/
 public class SetMatrixZeroes {
 
-    public static void main(String args[]){}
-
    // Time Complexity : O(M×N)
    // Space Complexity : O(1)
     public void setZeroes(int[][] matrix) {

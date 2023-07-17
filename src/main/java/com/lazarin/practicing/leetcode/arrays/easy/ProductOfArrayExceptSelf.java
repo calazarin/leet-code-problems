@@ -1,20 +1,25 @@
 package com.lazarin.practicing.leetcode.arrays.easy;
 
+//https://leetcode.com/problems/product-of-array-except-self/
 public class ProductOfArrayExceptSelf {
 
-    //https://leetcode.com/problems/product-of-array-except-self/
-    public static void main(String args[]){
+    public int[] productExceptSelf(int[] nums) {
+        int n = nums.length;
 
-        //Output: [24,12,8,6]
-        var output = productExceptSelf(new int[] {1,2,3,4});
+        int[] output_arr = new int[n];
 
-        //Output: [0,0,9,0,0]
-        var output2 = productExceptSelf(new int[] {-1,1,0,-3,3});
-    }
+        output_arr[0] = 1;
 
-    public static int[] productExceptSelf(int[] nums) {
+        for(int i = 1; i < n; i++){ //compute prefix
+            output_arr[i] = nums[i - 1] * output_arr[i - 1];
+        }
 
-        return null;
+        int right = 1;
+        for(int j = n - 1; j >= 0; j--){ //compute suffix
+            output_arr[j] = output_arr[j] * right;
+            right = right * nums[j];
+        }
+        return output_arr;
     }
 
 }
