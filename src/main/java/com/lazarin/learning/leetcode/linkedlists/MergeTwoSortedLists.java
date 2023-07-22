@@ -1,6 +1,6 @@
 package com.lazarin.learning.leetcode.linkedlists;
 
-import com.lazarin.practicing.leetcode.linkedlist.easy.ListNode;
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 
 public class MergeTwoSortedLists {
 
@@ -18,7 +18,7 @@ public class MergeTwoSortedLists {
         n1_3.next = n1_4;
 
         ListNode newList = mergeTwoLists(n1, n1_1);
-        ReverseSinglyLinkedList.printLinkedList(newList);
+
     }
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {

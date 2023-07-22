@@ -1,14 +1,12 @@
 package com.lazarin.practicing.leetcode.linkedlist.easy;
 
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 //https://leetcode.com/problems/palindrome-linked-list/
 public class PalindromeLinkedList {
-
-    public static void main(String args[]){
-
-    }
 
     //T: O(3N) -> O(N)
     //S: O(2N) -> O(N)
@@ -25,7 +23,7 @@ public class PalindromeLinkedList {
 
         //Reverse vals array list
         List<Integer> reservedVals = new ArrayList<>();
-        for(int i = vals.size(); i >= 0; i --){
+        for(int i = vals.size() - 1; i >= 0; i --){
             reservedVals.add(vals.get(i));
         }
 
@@ -45,7 +43,7 @@ public class PalindromeLinkedList {
     //4. reverse the second half again -> T: O(N)
     //TOTAL => T: O(4N) -> O(N)
     //S: O(N)
-    public boolean isPalindrome1(ListNode head){
+    public boolean isPalindrome2(ListNode head){
         if(head == null) return true;
 
         ListNode firstHalfEnd = endOfFirstHalf(head);

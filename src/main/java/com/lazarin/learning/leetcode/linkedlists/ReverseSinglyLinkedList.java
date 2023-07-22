@@ -1,6 +1,6 @@
 package com.lazarin.learning.leetcode.linkedlists;
 
-import com.lazarin.practicing.leetcode.linkedlist.easy.ListNode;
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 
 public class ReverseSinglyLinkedList {
 
@@ -15,9 +15,7 @@ public class ReverseSinglyLinkedList {
         n3.next = n4;
         ListNode n5 = new ListNode(5);
         n4.next = n5;
-        printLinkedList(n1);
         ListNode reversed = reverseListRecursion(n1);
-        printLinkedList(reversed);
     }
 
     public static ListNode reverseList(ListNode head) {
@@ -48,14 +46,5 @@ public class ReverseSinglyLinkedList {
         }
         node.next = null;
         return newHead;
-    }
-
-    public static void printLinkedList(ListNode head){
-        ListNode currentNode = head;
-        while(currentNode != null){
-            System.out.print(currentNode.val+" - ");
-            currentNode = currentNode.next;
-        }
-        System.out.print("\n");
     }
 }

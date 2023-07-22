@@ -1,13 +1,12 @@
 package com.lazarin.practicing.leetcode.linkedlist.easy;
 
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
 //https://leetcode.com/problems/intersection-of-two-linked-lists/
 public class IntersectionOfTwoLinkedLists {
-    public static void main(String args[]){
-
-    }
 
     //t: O(N+N) where N is the length of linked list A and M the length of B
     //s: O(M) where M is the amount of nodes in B we are storing in the set

@@ -1,20 +1,9 @@
 package com.lazarin.practicing.leetcode.linkedlist.easy;
 
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
 //https://leetcode.com/problems/remove-linked-list-elements/description/
 public class RemoveLinkedListElements {
-
-    public static void main(String args[]){
-
-        /*Input: head = [1,2,6,3,4,5,6], val = 6
-        Output: [1,2,3,4,5]*/
-
-       /* Input: head = [], val = 1
-        Output: []*/
-
-      /*  Input: head = [7,7,7,7], val = 7
-        Output: []*/
-
-    }
 
     //T: O(N)
     //S: O(1)

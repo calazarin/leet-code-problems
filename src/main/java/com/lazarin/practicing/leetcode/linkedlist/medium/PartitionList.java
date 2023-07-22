@@ -1,5 +1,7 @@
 package com.lazarin.practicing.leetcode.linkedlist.medium;
 
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
 //https://leetcode.com/problems/partition-list/
 public class PartitionList {
 

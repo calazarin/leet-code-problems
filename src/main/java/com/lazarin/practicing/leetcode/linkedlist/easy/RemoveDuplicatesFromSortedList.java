@@ -1,18 +1,9 @@
 package com.lazarin.practicing.leetcode.linkedlist.easy;
 
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
 //https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 public class RemoveDuplicatesFromSortedList {
-
-    public static void main(String args[]){
-
-     /*   Input: head = [1,1,2]
-        Output: [1,2]*/
-
-        /*
-        Input: head = [1,1,2,3,3]
-        Output: [1,2,3]*/
-
-    }
 
     public ListNode deleteDuplicates(ListNode head) {
 

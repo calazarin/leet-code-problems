@@ -223,7 +223,8 @@ ___
 7. [Rotate List](https://leetcode.com/problems/rotate-list/)
 8. [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 9. [Partition List](https://leetcode.com/problems/partition-list/)
-
+10. [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
+11. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
 ___
 
 ### Math

@@ -1,8 +1,10 @@
 package com.lazarin.practicing.leetcode.linkedlist.medium;
 
 
-import static com.lazarin.practicing.leetcode.linkedlist.medium.ListNode.createList;
-import static com.lazarin.practicing.leetcode.linkedlist.medium.ListNode.print;
+import com.lazarin.practicing.leetcode.linkedlist.ListNode;
+
+import static com.lazarin.practicing.leetcode.linkedlist.ListNode.createList;
+import static com.lazarin.practicing.leetcode.linkedlist.ListNode.print;
 
 //https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 public class RemoveDuplicatesFromSortedListII {
