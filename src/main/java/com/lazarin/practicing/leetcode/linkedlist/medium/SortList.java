@@ -5,14 +5,6 @@ import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 //https://leetcode.com/problems/sort-list/
 public class SortList {
 
-    public static void main(String args[]){
-       /* Input: head = [4,2,1,3]
-        Output: [1,2,3,4]*/
-
-      /*  Input: head = [-1,5,3,4,0]
-        Output: [-1,0,3,4,5]*/
-    }
-
     public ListNode sortList(ListNode head) {
 
         if(head == null || head.next == null){

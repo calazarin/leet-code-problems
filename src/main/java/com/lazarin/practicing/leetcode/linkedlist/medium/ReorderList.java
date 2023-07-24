@@ -5,10 +5,6 @@ import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 //https://leetcode.com/problems/reorder-list/
 public class ReorderList {
 
-    public static void main(String args[]){
-
-    }
-
     //T: O(N)
     // to find the middle node -> O(N)
     // to reverse the second part -> N/2

@@ -6,21 +6,7 @@ import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 public class PartitionList {
 
     /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
-    public static void main(String args[]){
-
-    }
-
-    /**
-     * approach
+     * approach 1
      * create 2 temp lists: left and right
      * left receives nodes < x
      * right receives nodes >= x

@@ -5,17 +5,6 @@ import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 //https://leetcode.com/problems/swap-nodes-in-pairs/
 public class SwapNodesInPairs {
 
-    public static void main(String args[]){
-       /* Input: head = [1,2,3,4]
-        Output: [2,1,4,3]*/
-
-       /* Input: head = []
-        Output: []*/
-
-       /* Input: head = [1]
-        Output: [1]*/
-    }
-
     /**
      * Definition for singly-linked list.
      * public class ListNode {

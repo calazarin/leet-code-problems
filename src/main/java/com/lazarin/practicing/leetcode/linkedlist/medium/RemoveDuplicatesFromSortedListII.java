@@ -3,44 +3,13 @@ package com.lazarin.practicing.leetcode.linkedlist.medium;
 
 import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 
-import static com.lazarin.practicing.leetcode.linkedlist.ListNode.createList;
-import static com.lazarin.practicing.leetcode.linkedlist.ListNode.print;
-
 //https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 public class RemoveDuplicatesFromSortedListII {
-
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     *     int val;
-     *     ListNode next;
-     *     ListNode() {}
-     *     ListNode(int val) { this.val = val; }
-     *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
-     * }
-     */
-    public static void main(String args[]){
-
-        /*Input: head = [1,2,3,3,4,4,5]
-        Output: [1,2,5]*/
-        ListNode head = createList(new int[]{1,2,3,3,4,4,5}, 0);
-        ListNode newHead = deleteDuplicates(head);
-        print(newHead);
-
-        System.out.print("\n");
-
-        /*Input: head = [1,1,1,2,3]
-        Output: [2,3]*/
-        ListNode head2 = createList(new int[]{1,1,1,2,3}, 0);
-        ListNode newHead2 = deleteDuplicates(head2);
-        print(newHead2);
-
-    }
 
     //using two pointers (prev and head) and a dummy node
     //T: O(n)
     //S: O(1)
-    public static ListNode deleteDuplicates(ListNode head) {
+    public ListNode deleteDuplicates(ListNode head) {
 
         ListNode dummy = new ListNode(0, head);
         ListNode prev = dummy;
