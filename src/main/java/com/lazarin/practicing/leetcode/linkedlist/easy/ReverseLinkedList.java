@@ -2,13 +2,14 @@ package com.lazarin.practicing.leetcode.linkedlist.easy;
 
 import com.lazarin.practicing.leetcode.linkedlist.ListNode;
 
+//https://leetcode.com/problems/reverse-linked-list
 public class ReverseLinkedList {
 
     // T O(n) // M O(1)
     public ListNode reverseList(ListNode head) {
 
         ListNode previous = null;
-        ListNode currentPointer = new ListNode(head.val, head.next);
+        ListNode currentPointer = head;
 
         while(currentPointer != null) {
             ListNode tmp = currentPointer.next;

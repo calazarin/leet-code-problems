@@ -225,6 +225,8 @@ ___
 9. [Partition List](https://leetcode.com/problems/partition-list/)
 10. [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
 11. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
+12. [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
+
 ___
 
 ### Math
