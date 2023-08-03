@@ -304,6 +304,7 @@ ___
 12. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 13. [Same Tree](https://leetcode.com/problems/same-tree/)
 14. [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)
+15. [Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
 
 #### Medium
 
@@ -315,6 +316,9 @@ ___
 6. [Lowest Common Ancestor of Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 7. [Populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 8. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+9. [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree)
+10. [Path Sum III](https://leetcode.com/problems/path-sum-iii)
+11. [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
 
 #### Medium - Trie
 
