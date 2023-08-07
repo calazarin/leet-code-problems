@@ -8,10 +8,6 @@ import java.util.Stack;
 //https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 public class KthSmallestElementInBST {
 
-    public static void main(String args[]){
-
-    }
-
     //Approach - if we run a BST in-order and put all elements in an array,
     //we are good!
     //Time complexity : O(N)O(N)O(N) to build a traversal.

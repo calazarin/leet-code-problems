@@ -9,9 +9,6 @@ import java.util.List;
 
 //https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 public class BinaryTreeZigzagLevelOrderTraversal {
-    public static void main(String args[]){
-
-    }
 
     //T: O(N)
     //S: O(N)

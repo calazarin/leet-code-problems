@@ -5,21 +5,9 @@ import com.lazarin.practicing.leetcode.tree.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-//pre-order (when we visit the node? pre)
-//node -> left -> right
-
-//in-order  (when we visit the node? in)
-//left -> node -> right
-
-//post-order  (when we visit the node? post)
-//left -> right -> node
 
 //https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
-
-    public static void main(String args[]) {
-
-    }
 
     public TreeNode buildTree(int[] preorder, int[] inorder){
         Map<Integer, Integer> inMap = new HashMap<>();

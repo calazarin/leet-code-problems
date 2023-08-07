@@ -7,15 +7,6 @@ import java.util.Stack;
 //https://leetcode.com/problems/sum-of-left-leaves/
 public class SumOfLeftLeaves {
 
-    public static void main(String args[]){
-       /* Input: root = [3,9,20,null,null,15,7]
-        Output: 24
-        Explanation: There are two left leaves in the binary tree, with values 9 and 15 respectively.*/
-
-       /* Input: root = [1]
-        Output: 0*/
-    }
-
     //T: O(n) where N is the amount of nodes in the tree
     //S: O(n) where N nodes
     public int sumOfLeftLeaves(TreeNode root) {

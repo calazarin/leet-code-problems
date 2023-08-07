@@ -8,30 +8,6 @@ import java.util.Map;
 
 //https://leetcode.com/problems/group-anagrams/
 public class GroupAnagrams {
-    public static void main(String args[]){
-
-        GroupAnagrams ga = new GroupAnagrams();
-
-   /*     Input: strs = ["eat","tea","tan","ate","nat","bat"]
-        Output: [["bat"],["nat","tan"],["ate","eat","tea"]]*/
-        var resp = ga.groupAnagrams2(new String[] {"eat","tea","tan","ate","nat","bat"});
-        printResp(resp);
-       /* Input: strs = [""]
-        Output: [[""]]*/
-
-     /*   Input: strs = ["a"]
-        Output: [["a"]]*/
-
-    }
-
-    private static void printResp(List<List<String>> resp){
-        for(List<String> respList : resp){
-            for(String value : respList){
-                System.out.print(value+",");
-            }
-            System.out.print("\n");
-        }
-    }
 
     //O(m * nlogn)
     public List<List<String>> groupAnagrams(String[] strs){

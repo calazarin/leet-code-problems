@@ -5,10 +5,6 @@ import com.lazarin.practicing.leetcode.tree.TreeNode;
 //https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 public class LowestCommonAncestorOfBinaryTree {
 
-    public static void main(String args[]){
-
-    }
-
     /**
      * We can resort to a normal tree traversal to search for the two nodes.
      * Once we reach the desired nodes p and q, we can backtrack and find the lowest common ancestor.

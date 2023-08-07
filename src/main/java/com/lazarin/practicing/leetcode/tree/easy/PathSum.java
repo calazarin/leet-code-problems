@@ -5,10 +5,6 @@ import com.lazarin.practicing.leetcode.tree.TreeNode;
 //https://leetcode.com/problems/path-sum/
 public class PathSum {
 
-    public static void main(String args[]){
-
-    }
-
     //T: O(N) - where N is the amount of nodes in the tree
     //S: O(H) where H is the height of the given tree
     public boolean hasPathSum(TreeNode root, int targetSum) {

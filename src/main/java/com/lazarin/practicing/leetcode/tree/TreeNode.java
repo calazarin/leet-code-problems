@@ -1,5 +1,8 @@
 package com.lazarin.practicing.leetcode.tree;
 
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode
 public class TreeNode {
     public int val;
     public TreeNode left;

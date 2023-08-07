@@ -5,10 +5,6 @@ import java.util.LinkedList;
 //https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 public class PopulatingNextRightPointersInEachNode {
 
-    public static void main(String args[]){
-
-    }
-
     //T: O(N)
     //S: O(N)
     //we need to traverse all nodes in the tree

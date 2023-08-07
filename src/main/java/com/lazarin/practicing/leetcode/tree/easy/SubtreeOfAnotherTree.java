@@ -5,10 +5,7 @@ import com.lazarin.practicing.leetcode.tree.TreeNode;
 //https://leetcode.com/problems/subtree-of-another-tree/
 public class SubtreeOfAnotherTree {
 
-    public static void main(String args[]){
-
-    }
-
+    //approach 1
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
 
         if(root == null && subRoot == null){
@@ -28,6 +25,7 @@ public class SubtreeOfAnotherTree {
                 && isSubtree(root.left, subRoot.left);
     }
 
+    //approach 2
     public boolean isSubtree2(TreeNode root, TreeNode subRoot) {
         if(root == null) {
             return false;

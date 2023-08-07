@@ -9,10 +9,6 @@ import java.util.Queue;
 //https://leetcode.com/problems/symmetric-tree/
 public class SymmetricTree {
 
-    public static void main(String args[]){
-
-    }
-
     //recursive
     //T: O(N) where N is the # of nodes in the tree
     //S: O(N) where N is the number of recursive calls bound by the height of the tree
