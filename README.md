@@ -305,6 +305,7 @@ ___
 13. [Same Tree](https://leetcode.com/problems/same-tree/)
 14. [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)
 15. [Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
+16. [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
 
 #### Medium
 
@@ -319,6 +320,9 @@ ___
 9. [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree)
 10. [Path Sum III](https://leetcode.com/problems/path-sum-iii)
 11. [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
+12. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
+13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
+14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 
 #### Medium - Trie
 
