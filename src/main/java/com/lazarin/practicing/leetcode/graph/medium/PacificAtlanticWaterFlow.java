@@ -9,42 +9,11 @@ public class PacificAtlanticWaterFlow {
 
     //Time: O(m*n)
     //Space: O(m*n)
-    public static void main(String args[]){
-
-        /*Input: heights = [[1,2,2,3,5],[3,2,3,4,4],[2,4,5,3,1],[6,7,1,4,5],[5,1,1,2,4]]
-        Output: [[0,4],[1,3],[1,4],[2,2],[3,0],[3,1],[4,0]]*/
-
-        var result = pacificAtlantic(
-                new int[][]{{1,2,2,3,5},
-                        {3,2,3,4,4},
-                        {2,4,5,3,1},
-                        {6,7,1,4,5},
-                        {5,1,1,2,4}});
-        printMatrix(result);
-
-        /*Input: heights = [[1]]
-        Output: [[0,0]]*/
-
-        var result2 = pacificAtlantic(
-                new int[][]{{1}});
-        printMatrix(result2);
-    }
-
-    private static void printMatrix(List<List<Integer>> listOfLists){
-        for(int i = 0; i < listOfLists.size(); i++){
-            var innerList = listOfLists.get(i);
-            for(int j = 0; j < innerList.size(); j++){
-                System.out.print(innerList.get(j) + " - ");
-            }
-            System.out.print("\n");
-        }
-    }
-
-    public static List<List<Integer>> pacificAtlantic(int[][] heights) {
+   public List<List<Integer>> pacificAtlantic(int[][] heights) {
 
         List<List<Integer>> result = new ArrayList<>();
 
-        if(heights == null || heights[0].length == 0 || heights.length == 0){
+        if(heights == null || heights[0].length == 0){
             return result;
         }
 
@@ -75,7 +44,7 @@ public class PacificAtlanticWaterFlow {
         return result;
     }
 
-    private static void dfs(int[][]matrix, int i, int j, int prev, boolean[][]ocean){
+    private void dfs(int[][]matrix, int i, int j, int prev, boolean[][]ocean){
 
         if(i < 0 || i >= ocean.length || j < 0 || j >= ocean[0].length) return;
         if(matrix[i][j] < prev || ocean[i][j]) return;

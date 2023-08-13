@@ -11,10 +11,7 @@ import java.util.Stack;
 //https://leetcode.com/problems/graph-valid-tree/
 public class GraphValidTree {
 
-    public static void main(String args[]){
-
-    }
-
+    //approach 1
     //T: O(N+E) where E is the # of edges and N the # of nodes
     //S: O(N+E)
     public boolean validTree(int n, int[][] edges) {
@@ -28,12 +25,6 @@ public class GraphValidTree {
             adjList.get(edge[0]).add(edge[1]);
             adjList.get(edge[1]).add(edge[0]);
         }
-
-        //0: 1,2,3
-        //1: 0,4
-        //2: 0
-        //3: 0
-        //4: 1
 
         Stack<Integer> stack = new Stack<>();
         stack.add(0);
@@ -58,6 +49,7 @@ public class GraphValidTree {
         return parentNodes.size() == n;
     }
 
+    //approach 2
     public boolean validTree2(int n, int[][] edges) {
         List<List<Integer>> adjList = new ArrayList<>();
         for(int i = 0; i < n; i++){
