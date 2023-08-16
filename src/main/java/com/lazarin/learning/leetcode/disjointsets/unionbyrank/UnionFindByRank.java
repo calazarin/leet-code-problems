@@ -1,4 +1,4 @@
-package com.lazarin.learning.leetcode.graph.disjointsets.unionbyrank;
+package com.lazarin.learning.leetcode.disjointsets.unionbyrank;
 
 public class UnionFindByRank {
 

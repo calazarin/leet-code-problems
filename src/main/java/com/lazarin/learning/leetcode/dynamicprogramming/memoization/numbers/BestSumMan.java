@@ -14,8 +14,8 @@ public class BestSumMan {
         System.out.println(result2);
         var result3 = shortestSum(8, new int[]{1,4,5}, new HashMap<>());
         System.out.println(result3);
-       var result4 = shortestSum(100, new int[]{1,2,5,25}, new HashMap<>());
-       System.out.println(result4);
+        var result4 = shortestSum(100, new int[]{1,2,5,25}, new HashMap<>());
+        System.out.println(result4);
 
     }
 
@@ -30,7 +30,6 @@ public class BestSumMan {
             var remainder = targetSum - number;
             var remainderCombination = shortestSum(remainder, numbers, memo);
             if (remainderCombination != null) {
-//                remainderCombination.add(number);
 
                 var newResult = new ArrayList<Integer>();
                 newResult.add(number);

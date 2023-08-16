@@ -1,8 +1,7 @@
-package com.lazarin.learning.leetcode.graph.disjointsets;
+package com.lazarin.practicing.leetcode.disjointset.medium;
 
 
 //https://leetcode.com/explore/featured/card/graph/618/disjoint-set/3845/
-//solution with dsf: https://youtu.be/ACzkVtewUYA
 public class NumberOfProvinces {
 
     public int findCircleNum(int[][] isConnected) {
@@ -60,12 +59,12 @@ public class NumberOfProvinces {
 
             if(root_x != root_y){
                 if(rank[root_x] > rank[root_y]){
-                   root[y] = root_x;
+                    root[y] = root_x;
                 } else if(rank[root_y] > rank[root_x]){
-                   root[x] = root_y;
+                    root[x] = root_y;
                 } else {
-                   root[y] = root_x;
-                   rank[root_x] += 1;
+                    root[y] = root_x;
+                    rank[root_x] += 1;
                 }
                 count--;
             }

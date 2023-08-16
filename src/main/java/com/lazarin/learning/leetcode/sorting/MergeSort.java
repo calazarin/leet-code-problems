@@ -1,32 +1,12 @@
 package com.lazarin.learning.leetcode.sorting;
 
-import java.util.Arrays;
-import java.util.Random;
+public class MergeSort {
 
-public class MergeSortMain {
-
-    public static void main(String args[]){
-        Random rand = new Random();
-        int[] numbers = new int[10];
-
-        for(int i = 0; i < numbers.length; i++){
-            numbers[i] = rand.nextInt(100);
-        }
-
-        System.out.println("Before: ");
-        System.out.println(Arrays.toString(numbers));
-
-        mergeSort(numbers);
-
-        System.out.println("After: ");
-        System.out.println(Arrays.toString(numbers));
-    }
-
-    public static void mergeSort(int[] numbers){
+    public void mergeSort(int[] numbers){
         split(numbers);
     }
 
-    public static void split(int[] numbers){
+    private void split(int[] numbers){
 
         if(numbers.length < 2){
             return;
@@ -52,7 +32,7 @@ public class MergeSortMain {
         merge(numbers, leftSide, rightSide);
     }
 
-    public static void merge(int[] inputArray, int[] leftSide, int[] rightSide){
+    private void merge(int[] inputArray, int[] leftSide, int[] rightSide){
 
         int i = 0, j = 0, k = 0;
         while(i < leftSide.length && j < rightSide.length){

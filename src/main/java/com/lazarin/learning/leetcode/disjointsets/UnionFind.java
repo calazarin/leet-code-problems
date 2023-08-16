@@ -1,4 +1,4 @@
-package com.lazarin.learning.leetcode.graph.disjointsets;
+package com.lazarin.learning.leetcode.disjointsets;
 
 public class UnionFind {
 
@@ -15,8 +15,8 @@ public class UnionFind {
 
     //unions two vertices and makes their root nodes the same
     public void union(int nodeA, int nodeB){
-        var rootNodeA = find(nodeA);
-        var rootNodeB = find(nodeB);
+        var rootNodeA = quickFind(nodeA);
+        var rootNodeB = quickFind(nodeB);
 
         if(rootNodeA != rootNodeB){
             for(int i = 0; i < root.length; i++){
@@ -29,12 +29,12 @@ public class UnionFind {
 
     //T: O(1)
     public boolean connected(int nodeA, int nodeB){
-        return find(nodeA) == find(nodeB);
+        return quickFind(nodeA) == quickFind(nodeB);
     }
 
     // finds the root node of a given vertex.
     //T: O(N)
-    public int find2(int vertex){
+    public int find(int vertex){
         int root = this.root[vertex];
         while(root != vertex){
             root = this.root[root];
@@ -45,15 +45,15 @@ public class UnionFind {
     //with quick find, during union operation we replace the root for the most root
     //element
     //T: O(1)
-    public int find(int vertex){
+    public int quickFind(int vertex){
         return root[vertex];
     }
 
     //quick union operation
     //T: O(N)
-    public void union2(int nodeA, int nodeB){
-        int rootA = find2(nodeA);
-        int rootB = find2(nodeB);
+    public void quickUnion(int nodeA, int nodeB){
+        int rootA = find(nodeA);
+        int rootB = find(nodeB);
         if(rootA != rootB){
             root[nodeB] = rootA;
         }

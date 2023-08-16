@@ -1,4 +1,4 @@
-package com.lazarin.learning.leetcode.graph.disjointsets.pathcompreesion;
+package com.lazarin.learning.leetcode.disjointsets.pathcompreesion;
 
 public class UnionFindPathCompression {
 
