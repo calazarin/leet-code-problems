@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.disjointset.main;
+package com.lazarin.practicing.leetcode.disjointset.medium;
 
 import org.junit.jupiter.api.Test;
 
