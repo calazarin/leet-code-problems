@@ -10,3 +10,4 @@
 6. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 7. [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 8. [Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+9. [Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
