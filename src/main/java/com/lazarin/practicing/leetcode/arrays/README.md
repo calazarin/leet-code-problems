@@ -49,6 +49,7 @@ This package contains array related problems
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
 15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 16. [Decode String](https://leetcode.com/problems/decode-string/)
+17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
 ### Sliding Window
 #### Easy

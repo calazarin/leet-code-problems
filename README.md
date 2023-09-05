@@ -64,6 +64,7 @@ This section enumerates all problems in this repository and the respective links
 14. [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs)
 15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 16. [Decode String](https://leetcode.com/problems/decode-string/)
+17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 
 ---
 
@@ -144,6 +145,7 @@ ___
 
 1. [LRU Cache](https://leetcode.com/problems/lru-cache/)
 2. [Min Stack](https://leetcode.com/problems/min-stack/)
+3. [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
 
 ___
 

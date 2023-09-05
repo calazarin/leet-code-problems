@@ -10,3 +10,4 @@
 
 1. [LRU Cache](https://leetcode.com/problems/lru-cache/)
 2. [Min Stack](https://leetcode.com/problems/min-stack/)
+3. [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set)
