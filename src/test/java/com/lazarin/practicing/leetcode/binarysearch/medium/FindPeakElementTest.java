@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.arrays.medium.binarysearch;
+package com.lazarin.practicing.leetcode.binarysearch.medium;
 
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;

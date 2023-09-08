@@ -1,10 +1,7 @@
 package com.lazarin.practicing.leetcode.binarysearch.easy;
 
+//https://leetcode.com/problems/first-bad-version/
 public class FirstBadVersion extends VersionControl{
-
-    public static void main(String args[]){
-
-    }
 
     //approach 1 - most optimal with binary search
     //T: O(logn)

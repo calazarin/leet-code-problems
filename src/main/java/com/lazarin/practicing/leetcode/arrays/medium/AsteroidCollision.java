@@ -59,7 +59,7 @@ public class AsteroidCollision {
             boolean flag = true;
             while (!st.isEmpty() && (st.peek() > 0 && asteroid < 0)) {
                 // If the top asteroid in the stack is smaller, then it will explode.
-                // Hence pop it from the stack, also continue with the next asteroid in the stack.
+                // Hence, pop it from the stack, also continue with the next asteroid in the stack.
                 if (Math.abs(st.peek()) < Math.abs(asteroid)) {
                     st.pop();
                     continue;

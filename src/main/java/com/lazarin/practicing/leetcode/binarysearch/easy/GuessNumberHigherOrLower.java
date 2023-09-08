@@ -3,19 +3,6 @@ package com.lazarin.practicing.leetcode.binarysearch.easy;
 //https://leetcode.com/problems/guess-number-higher-or-lower/
 public class GuessNumberHigherOrLower extends GuessGame{
 
-    public static void main(String args[]){
-
-       /* Input: n = 10, pick = 6
-        Output: 6*/
-
-       /* Input: n = 1, pick = 1
-        Output: 1*/
-
-        /*Input: n = 2, pick = 1
-        Output: 1*/
-
-    }
-
     //my attempt - using binary search
     //T: O(logn)
     //S:O(1)
@@ -26,7 +13,7 @@ public class GuessNumberHigherOrLower extends GuessGame{
 
         while(left <= right){
 
-            int mid = left + (right - left) /2;
+            int mid = left + (right - left) /2; //this avoids integer overflow https://stackoverflow.com/questions/6735259/calculating-mid-in-binary-search/57703680#57703680
             var res = guess(mid);
 
             if(res == 0){
