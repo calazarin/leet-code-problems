@@ -9,31 +9,6 @@ import java.util.Map;
 //https://leetcode.com/problems/permutations-ii/description/
 public class Permutations2 {
 
-    public static void main(String args[]){
-        Permutations2 solution = new Permutations2();
-       /* Input: nums = [1,1,2]
-        Output:
-        [[1,1,2],
-         [1,2,1],
-         [2,1,1]]*/
-        //var resp = solution.permuteUnique(new int[]{1, 1, 2});
-        var resp = solution.permuteUnique2(new int[]{1, 1, 2});
-        resp.stream().forEach(a -> {
-            a.forEach(p -> System.out.printf("%d,", p));
-            System.out.print("\n");
-        });
-
-        System.out.print("\n");
-
-       /* Input: nums = [1,2,3]
-        Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]*/
-        var resp2 = solution.permuteUnique(new int[]{1, 2, 3});
-        resp2.stream().forEach(a -> {
-            a.forEach(p -> System.out.printf("%d,", p));
-            System.out.print("\n");
-        });
-    }
-
     //approach 1
     // a count hash map can be used to track duplicates
     public List<List<Integer>> permuteUnique(int[] nums) {

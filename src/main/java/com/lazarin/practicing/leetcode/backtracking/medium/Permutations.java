@@ -6,21 +6,6 @@ import java.util.List;
 //https://leetcode.com/problems/permutations/
 public class Permutations {
 
-    public static void main(String args[]){
-        Permutations permutations = new Permutations();
-        var resp = permutations.permute(new int[]{1,2,3});
-        permutations.printResp(resp);
-    }
-
-    private void printResp(List<List<Integer>> resp){
-        for(List<Integer> respList : resp){
-            for(Integer value : respList){
-                System.out.print(value+",");
-            }
-            System.out.print("\n");
-        }
-    }
-
     //recursive solution
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> answer = new ArrayList<>();

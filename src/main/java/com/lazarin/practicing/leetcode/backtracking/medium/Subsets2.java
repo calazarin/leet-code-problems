@@ -1,34 +1,11 @@
 package com.lazarin.practicing.leetcode.backtracking.medium;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 //https://leetcode.com/problems/subsets-ii/description/
 public class Subsets2 {
-
-    public static void main(String args[]){
-
-        Subsets2 solution = new Subsets2();
-
-       /* Input: nums = [1,2,2]
-        Output: [[],[1],[1,2],[1,2,2],[2],[2,2]]*/
-        var resp = solution.subsetsWithDup(new int[]{1, 2, 2});
-        printAnswer(resp);
-
-      /*  Input: nums = [0]
-        Output: [[],[0]]*/
-        var resp2 = solution.subsetsWithDup(new int[]{0});
-        printAnswer(resp2);
-    }
-
-    private static void printAnswer(List<List<Integer>> answer){
-        answer.stream().forEach(a -> {
-            a.forEach(p -> System.out.printf("%d,", p));
-            System.out.print("\n");
-        });
-    }
 
     //T: n * 2^n; either you pick a choicer or not
     //S: O(2^n)

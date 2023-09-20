@@ -9,3 +9,4 @@
 
 1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 2. [Successful Pairs of Spells And Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
+3. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)

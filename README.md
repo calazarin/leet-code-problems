@@ -108,6 +108,7 @@ ___
 7. [Subsets II](https://leetcode.com/problems/subsets-ii/)
 8. [Subsets](https://leetcode.com/problems/subsets/)
 9. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+10. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 
 ### Hard
 
@@ -126,6 +127,7 @@ ___
 
 1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 2. [Successful Pairs of Spells And Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
+3. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
 
 ___
 
