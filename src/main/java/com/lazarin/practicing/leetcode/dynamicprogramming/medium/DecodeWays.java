@@ -5,26 +5,8 @@ import java.util.HashMap;
 //https://leetcode.com/problems/decode-ways
 public class DecodeWays {
 
-    public static void main(String args[]){
-
-       /* Input: s = "12"
-        Output: 2
-        Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).*/
-        System.out.println(numDecodings("12"));
-
-        /*Input: s = "226"
-        Output: 3
-        Explanation: "226" could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).*/
-        System.out.println(numDecodings("226"));
-
-        /*
-        Input: s = "06"
-        Output: 0
-        Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is different from "06").*/
-        System.out.println(numDecodings("06"));
-    }
-
-    public static int numDecodings(String s){
+    //approach 1
+    public int numDecodings(String s){
 
         int[] dp = new int[s.length() + 1];
         dp[0] = 1; //one way of decoding (not decoding)
@@ -45,13 +27,14 @@ public class DecodeWays {
         return dp[s.length()];
     }
 
-    public static int numDecodings2(String s){
+    //approach 2
+    public int numDecodings2(String s){
         HashMap<Integer, Integer> dp = new HashMap<>();
         dp.put(s.length(), 1);
         return helper(s, 0, dp);
     }
 
-    private static int helper(String s, int i, HashMap<Integer, Integer> dp){
+    private int helper(String s, int i, HashMap<Integer, Integer> dp){
         if(dp.containsKey(i)){
             return dp.get(i);
         }
@@ -67,7 +50,7 @@ public class DecodeWays {
         return res;
     }
 
-    private static int getIntValue(String s, int index){
+    private int getIntValue(String s, int index){
 
         var givenChar = s.charAt(index);
         var givenCharIntValue = Integer.parseInt(String.valueOf(givenChar));
