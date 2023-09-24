@@ -3,26 +3,7 @@ package com.lazarin.practicing.leetcode.dynamicprogramming.medium;
 //https://leetcode.com/problems/longest-common-subsequence/
 public class LongestCommonSubsequence {
 
-    public static void main(String args[]){
-        /*Input: text1 = "abcde", text2 = "ace"
-        Output: 3
-        Explanation: The longest common subsequence is "ace" and its length is 3.*/
-        System.out.println(longestCommonSubsequence("abcde", "ace"));
-
-
-     /*   Input: text1 = "abc", text2 = "abc"
-        Output: 3
-        Explanation: The longest common subsequence is "abc" and its length is 3.*/
-        System.out.println(longestCommonSubsequence("abc", "abc"));
-
-        /*Input: text1 = "abc", text2 = "def"
-        Output: 0
-        Explanation: There is no such common subsequence, so the result is 0.*/
-        System.out.println(longestCommonSubsequence("abc", "def"));
-
-    }
-
-    public static int longestCommonSubsequence(String text1, String text2) {
+    public int longestCommonSubsequence(String text1, String text2) {
 
         int[][] dp = new int[text1.length() + 1][text2.length() + 1];
 
@@ -40,15 +21,5 @@ public class LongestCommonSubsequence {
             }
         }
         return dp[text1.length()][text2.length()];
-
-        /*for(int i = 1; i < dp.length; i++){
-            for(int j = 1; j < dp[0].length; j++){
-                if(text1Arr[i - 1] == text2Arr[j - 1]){
-                    dp[i][j] = 1 + dp[i-1][j - 1];
-                }
-            }
-        }
-
-        return dp[text1.length() + 1][text2.length() + 1];*/
     }
 }

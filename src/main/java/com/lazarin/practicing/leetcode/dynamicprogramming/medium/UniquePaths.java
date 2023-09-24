@@ -5,25 +5,7 @@ import java.util.LinkedList;
 //https://leetcode.com/problems/unique-paths/
 public class UniquePaths {
 
-    public static void main(String args[]){
-        /*Input: m = 3, n = 7
-        Output: 28*/
-        System.out.println(uniquePathsOptmized(3, 7));
-
-       /* Input: m = 3, n = 2
-        Output: 3
-        Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
-        1. Right -> Down -> Down
-        2. Down -> Down -> Right
-        3. Down -> Right -> Down*/
-        System.out.println(uniquePathsOptmized(3, 2));
-
-         /* Input: m = 23, n = 12 */
-        System.out.println(uniquePathsOptmized(23, 12));
-    }
-
-
-    public static int uniquePaths(int m, int n) {
+    public int uniquePaths(int m, int n) {
 
         int possibilities = 0;
 
@@ -52,7 +34,7 @@ public class UniquePaths {
     }
 
     //O(n*m)
-    public static int uniquePathsOptmized(int m, int n) {
+    public int uniquePathsOptmized(int m, int n) {
         int[][] dp = new int[n][m];
         for(int i = 0; i < dp.length; i++){
             for(int j = 0; j < dp[i].length; j++){
