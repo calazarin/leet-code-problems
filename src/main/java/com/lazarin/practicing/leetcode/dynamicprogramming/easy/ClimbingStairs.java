@@ -2,17 +2,12 @@ package com.lazarin.practicing.leetcode.dynamicprogramming.easy;
 
 public class ClimbingStairs {
 
-    public static void main(String args[]){
-        System.out.println(climbStairs3(2)); //2
-        System.out.println(climbStairs3(3)); //3
-    }
-
-    public static int climbStairs(int n) {
+    public int climbStairs(int n) {
         int[] possibleSteps = new int[]{1, 2};
         return climbStarHelp(n, possibleSteps);
     }
 
-    public static int climbStarHelp(int currentLevel, int[] possibleSteps){
+    public int climbStarHelp(int currentLevel, int[] possibleSteps){
 
         if(currentLevel == 0) return 1;
         if(currentLevel < 0) return 0;
@@ -27,7 +22,7 @@ public class ClimbingStairs {
     }
 
     //with dynamic programming - bottom up approach
-    public static int climbStairs2(int n) {
+    public int climbStairs2(int n) {
       int one = 1, two = 1;
 
       for(int i =0; i < n - 1; i++){
@@ -39,7 +34,7 @@ public class ClimbingStairs {
     }
 
     //with dynamic programming - bottom up approach 2
-    public static int climbStairs3(int n) {
+    public int climbStairs3(int n) {
         int[] dp = new int[n + 1];
         dp[0] =  1;
         dp[1] = 1;

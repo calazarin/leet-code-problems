@@ -3,26 +3,6 @@ package com.lazarin.practicing.leetcode.bitmanipulation.easy;
 //https://leetcode.com/problems/hamming-distance/description/
 public class HammingDistance {
 
-    public static void main(String args[]){
-
-        HammingDistance hd = new HammingDistance();
-        /*Input: x = 1, y = 4
-        Output: 2
-        Explanation:
-        1   (0 0 0 1)
-        4   (0 1 0 0)
-               ↑   ↑
-        The above arrows point to positions where the corresponding bits are different.*/
-        System.out.println(hd.hammingDistance(1, 4));
-        System.out.println(hd.hammingDistance2(1, 4));
-
-        /*
-        Input: x = 3, y = 1
-        Output: 1*/
-        System.out.println(hd.hammingDistance(3, 1));
-        System.out.println(hd.hammingDistance2(3, 1));
-    }
-
     //approach - using XOR
     public int hammingDistance(int x, int y) {
         int result = 0;

@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.bitmanipulation.practing;
+package com.lazarin.learning.leetcode.bitmanipulation;
 
 public class ConvertNumToBase7 {
 

@@ -3,10 +3,6 @@ package com.lazarin.practicing.leetcode.bitmanipulation.easy;
 //https://leetcode.com/problems/reverse-bits/
 public class ReverseBits {
 
-    public static void main(String args[]){
-
-    }
-
     public int reverseBits(int n) {
         var result = 0;
         for(int i = 0; i < 32; i++){
