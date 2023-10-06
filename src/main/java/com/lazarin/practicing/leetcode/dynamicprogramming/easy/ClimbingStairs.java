@@ -21,19 +21,26 @@ public class ClimbingStairs {
         return  possibleWays;
     }
 
-    //with dynamic programming - bottom up approach
+    /**
+     * approach 2
+     *  with dynamic programming - bottom up approach (memory optimization)
+     *  T: O(N); S: O(1)
+     */
     public int climbStairs2(int n) {
       int one = 1, two = 1;
-
-      for(int i =0; i < n - 1; i++){
-          var temp = one;
-          one = one + two;
-          two = temp;
+      int three = 0;
+      for(int i = 2; i <= n; i++){
+          three = one + two;
+          one = two;
+          two = three;
       }
-      return one;
+      return three;
     }
 
-    //with dynamic programming - bottom up approach 2
+    /**
+     * approach 3 -with dynamic programming - bottom up approach
+     *  T: O(N); S: O(N )
+     */
     public int climbStairs3(int n) {
         int[] dp = new int[n + 1];
         dp[0] =  1;
