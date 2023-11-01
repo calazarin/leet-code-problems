@@ -7,6 +7,7 @@
 3. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 4. [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 5. [Divisor Game](https://leetcode.com/problems/divisor-game/)
+6. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## Medium
 
@@ -19,3 +20,11 @@
 7. [Unique Paths](https://leetcode.com/problems/unique-paths/)
 8. [Word Break](https://leetcode.com/problems/word-break/)
 9. [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+10. [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
+11. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+12. [Best Time to Buy and Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+
+## Hard
+
+1. [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
+2. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)

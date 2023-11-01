@@ -3,7 +3,25 @@ package com.lazarin.practicing.leetcode.dynamicprogramming.medium;
 //https://leetcode.com/problems/longest-common-subsequence/
 public class LongestCommonSubsequence {
 
+    //approach 1 - recursion - 2^n
     public int longestCommonSubsequence(String text1, String text2) {
+        return lcs(text1.length() - 1,  text2.length() - 1, text1, text2);
+    }
+
+    public int lcs(int i, int j, String text1, String text2){
+
+        if(i < 0 || j < 0) return 0;
+
+        if(text1.charAt(i) == text2.charAt(j)){
+            return 1 + lcs(i - 1, j - 1, text1, text2);
+        } else {
+            return Math.max(lcs(i - 1, j, text1, text2), lcs(i, j - 1, text1, text2));
+        }
+    }
+
+
+    //approach 2 - tabulation (bottom up DP) - T: O(n*m)
+    public int longestCommonSubsequence_2(String text1, String text2) {
 
         int[][] dp = new int[text1.length() + 1][text2.length() + 1];
 
@@ -22,4 +40,5 @@ public class LongestCommonSubsequence {
         }
         return dp[text1.length()][text2.length()];
     }
+
 }

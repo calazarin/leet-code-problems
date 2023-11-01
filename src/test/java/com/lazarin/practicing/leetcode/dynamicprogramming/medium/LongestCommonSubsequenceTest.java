@@ -18,4 +18,13 @@ public class LongestCommonSubsequenceTest {
         assertThat(solution.longestCommonSubsequence("abc", "abc"), is(3));
         assertThat(solution.longestCommonSubsequence("abc", "def"), is(0));
     }
+
+    @Test
+    public void shouldReturnExpectedAnswers_approach2(){
+        LongestCommonSubsequence solution = new LongestCommonSubsequence();
+
+        assertThat(solution.longestCommonSubsequence_2("abcde", "ace"), is(3));
+        assertThat(solution.longestCommonSubsequence_2("abc", "abc"), is(3));
+        assertThat(solution.longestCommonSubsequence_2("abc", "def"), is(0));
+    }
 }
