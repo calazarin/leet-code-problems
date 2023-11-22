@@ -1,7 +1,7 @@
 package com.lazarin.practicing.leetcode.tree.easy;
 
 import org.junit.jupiter.api.Test;
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;

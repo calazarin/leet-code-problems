@@ -1,6 +1,6 @@
 package com.lazarin.practicing.leetcode.tree.easy;
 
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 //https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 public class ConvertSortedArrayToBinarySearchTree {

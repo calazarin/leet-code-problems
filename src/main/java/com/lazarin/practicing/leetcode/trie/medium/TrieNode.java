@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.tree.medium.trie;
+package com.lazarin.practicing.leetcode.trie.medium;
 
 import java.util.HashMap;
 import java.util.Map;

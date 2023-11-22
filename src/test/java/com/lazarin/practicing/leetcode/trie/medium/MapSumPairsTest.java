@@ -1,5 +1,6 @@
-package com.lazarin.practicing.leetcode.tree.medium.trie;
+package com.lazarin.practicing.leetcode.trie.medium;
 
+import com.lazarin.practicing.leetcode.trie.medium.MapSumPairs;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

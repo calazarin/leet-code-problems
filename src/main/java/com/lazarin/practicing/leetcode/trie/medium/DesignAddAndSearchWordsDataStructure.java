@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.tree.medium.trie;
+package com.lazarin.practicing.leetcode.trie.medium;
 
 //https://leetcode.com/problems/design-add-and-search-words-data-structure/
 public class DesignAddAndSearchWordsDataStructure {

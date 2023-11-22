@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.tree;
+package com.lazarin.practicing.leetcode.trie.medium;
 
 import lombok.EqualsAndHashCode;
 

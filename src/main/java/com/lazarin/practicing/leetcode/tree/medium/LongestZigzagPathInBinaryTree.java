@@ -1,6 +1,6 @@
 package com.lazarin.practicing.leetcode.tree.medium;
 
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 //https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree
 public class LongestZigzagPathInBinaryTree {

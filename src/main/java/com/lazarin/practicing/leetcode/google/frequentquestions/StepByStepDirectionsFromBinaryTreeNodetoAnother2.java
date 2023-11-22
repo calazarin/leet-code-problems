@@ -1,6 +1,6 @@
 package com.lazarin.practicing.leetcode.google.frequentquestions;
 
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 public class StepByStepDirectionsFromBinaryTreeNodetoAnother2 {
 

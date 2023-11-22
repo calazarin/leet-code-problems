@@ -1,6 +1,6 @@
 package com.lazarin.practicing.leetcode.tree.medium;
 
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 //https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 public class LowestCommonAncestorOfBinarySearchTree {

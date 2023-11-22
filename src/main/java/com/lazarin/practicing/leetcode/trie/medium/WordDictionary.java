@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.tree.medium.trie;
+package com.lazarin.practicing.leetcode.trie.medium;
 
 public class WordDictionary {
     //Trie => prefix tree

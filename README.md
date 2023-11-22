@@ -318,7 +318,7 @@ ___
 
 ___
 
-### Tree & Trie
+### Tree
 
 #### Easy
 
@@ -356,7 +356,11 @@ ___
 13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 
-#### Medium - Trie
+___
+
+### Trie
+
+#### Medium 
 
 1. [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 2. [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)

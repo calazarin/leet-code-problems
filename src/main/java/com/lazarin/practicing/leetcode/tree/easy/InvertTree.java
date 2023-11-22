@@ -1,6 +1,6 @@
 package com.lazarin.practicing.leetcode.tree.easy;
 
-import com.lazarin.practicing.leetcode.tree.TreeNode;
+import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
 
 //https://leetcode.com/problems/invert-binary-tree/
 public class InvertTree {
