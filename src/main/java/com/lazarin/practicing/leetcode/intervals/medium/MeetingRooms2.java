@@ -5,16 +5,6 @@ import java.util.Arrays;
 //https://leetcode.com/problems/meeting-rooms-ii/
 public class MeetingRooms2 {
 
-    public static void main(String args[]){
-        /*Input: intervals = [[0,30],[5,10],[15,20]]
-        Output: 2*/
-        System.out.println(minMeetingRooms(new int[][]{{0,30},{5,10},{15,20}}));
-
-     /*   Input: intervals = [[7,10],[2,4]]
-        Output: 1*/
-        System.out.println(minMeetingRooms(new int[][]{{7,10},{2,4}}));
-    }
-
     //O (n log n)
     public static int minMeetingRooms(int[][] intervals) {
 

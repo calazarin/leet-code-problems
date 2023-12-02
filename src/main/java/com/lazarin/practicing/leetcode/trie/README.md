@@ -7,6 +7,9 @@
 3. [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
 4. [Replace Words](https://leetcode.com/problems/replace-words/)
 5. [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+6. [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
 ### Hard
+
 1. [Word Search II](https://leetcode.com/problems/word-search-ii/)
+2. [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
