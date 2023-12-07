@@ -140,6 +140,11 @@ ___
 3. [Number of One Bits](https://leetcode.com/problems/number-of-1-bits/)
 4. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
 5. [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
+6. [Single Number](https://leetcode.com/problems/single-number)
+
+#### Medium
+
+1. [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)
 
 ___
 
@@ -373,6 +378,14 @@ ___
 
 1. [Word Search II](https://leetcode.com/problems/word-search-ii/)
 2. [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+___
+
+### Monotonic Stack
+
+#### Medium
+
+1. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
+
 ___
 
 ### Getting trouble to solve this kind of problem?

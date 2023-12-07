@@ -1,13 +1,19 @@
 package com.lazarin.practicing.leetcode.intervals.medium;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.List;
 
 //https://leetcode.com/problems/merge-intervals/
 public class MergeIntervals {
 
-    //approach 1
+    /**
+     * approach 1 - optimal - sorting provided input -
+     * T: O(nlogn)
+     * S: O(n)
+     */
     public int[][] merge(int[][] intervals) {
 
         LinkedList<int[]> output = new LinkedList<>();
@@ -48,4 +54,5 @@ public class MergeIntervals {
         }
         return output.toArray(new int[output.size()][2]);
     }
+
 }
