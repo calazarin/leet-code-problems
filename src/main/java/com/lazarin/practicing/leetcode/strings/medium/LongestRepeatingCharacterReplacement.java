@@ -6,23 +6,9 @@ import java.util.Map;
 //https://leetcode.com/problems/longest-repeating-character-replacement/
 public class LongestRepeatingCharacterReplacement {
 
-    public static void main(String args[]) {
-
-        /*  Input: s = "ABAB", k = 2
-        Output: 4
-        Explanation: Replace the two 'A's with two 'B's or vice versa.*/
-      //  System.out.println(characterReplacement("ABAB", 2));
-
-       /* Input: s = "AABABBA", k = 1
-        Output: 4
-        Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
-                The substring "BBBB" has the longest repeating letters, which is 4.*/
-        System.out.println(characterReplacement("AABABBA", 1));
-    }
-
-    //slide windown problem
+    //slide window problem
     //O (26 * N) => O(N)
-    public static int characterReplacement(String s, int k) {
+    public int characterReplacement(String s, int k) {
 
         Map<Character, Integer> charMap = new HashMap<>();
 
@@ -46,7 +32,7 @@ public class LongestRepeatingCharacterReplacement {
         return result;
     }
 
-    private static int getWindowSize(int r, int l){
+    private int getWindowSize(int r, int l){
         var windowSize = r - l + 1;
         return windowSize;
     }

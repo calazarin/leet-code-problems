@@ -1,6 +1,5 @@
-package com.lazarin.practicing.leetcode.monotonicstatck.medium;
+package com.lazarin.practicing.leetcode.monotonicstack.medium;
 
-import com.lazarin.practicing.leetcode.monotonicstack.medium.OnlineStockSpan;
 import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -5,7 +5,7 @@ import java.util.Stack;
 //https://leetcode.com/problems/removing-stars-from-a-string
 public class RemovingStarsFromString {
 
-    //T: O(N) tranverse across the entire list
+    //T: O(N) traverse across the entire list
     //S: O(N) up to the size of our string
     public String removeStars(String s) {
 
