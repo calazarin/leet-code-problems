@@ -5,22 +5,6 @@ import java.util.Stack;
 //https://leetcode.com/problems/reverse-words-in-a-string
 public class ReverseWordsInAString {
 
-    public static void main(String args[]){
-        ReverseWordsInAString rw = new ReverseWordsInAString();
-
-        /*Input: s = "the sky is blue"
-        Output: "blue is sky the"*/
-        System.out.println(rw.reverseWords2("the sky is blue"));
-
-        /*Input: s = "  hello world  "
-        Output: "world hello"*/
-        System.out.println(rw.reverseWords2("  hello world  "));
-
-       /* Input: s = "a good   example"
-        Output: "example good a"*/
-        System.out.println(rw.reverseWords2("a good   example"));
-    }
-
     //approach 1 - trim + split by regex
     public String reverseWords(String s) {
         String[] words = s.trim().split("\s+");
@@ -33,7 +17,7 @@ public class ReverseWordsInAString {
     }
 
     //approach 2 - 2 pointers
-    public String reverseWords2(String s) {
+    public String reverseWords_2(String s) {
         String result = null;
         int i = 0, n = s.length();
         while(i < n){
@@ -59,7 +43,7 @@ public class ReverseWordsInAString {
     }
 
     //approach 3 - using stack
-    public String reverseWords3(String s) {
+    public String reverseWords_3(String s) {
         Stack<String> st = new Stack<>();
         for (String a : s.trim().split("\s+")) {
             st.push(a);

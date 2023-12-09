@@ -3,22 +3,6 @@ package com.lazarin.practicing.leetcode.strings.easy;
 //https://leetcode.com/problems/greatest-common-divisor-of-strings/
 public class GreatestCommonDivisorOfStrings {
 
-    public static void main(String args[]){
-        GreatestCommonDivisorOfStrings solution = new GreatestCommonDivisorOfStrings();
-
-        /*Input: str1 = "ABCABC", str2 = "ABC"
-        Output: "ABC"*/
-        System.out.println(solution.gcdOfStrings("ABCABC","ABC"));
-
-      /*  Input: str1 = "ABABAB", str2 = "ABAB"
-        Output: "AB"*/
-        System.out.println(solution.gcdOfStrings("ABABAB","ABAB"));
-
-       /* Input: str1 = "LEET", str2 = "CODE"
-        Output: ""*/
-        System.out.println(solution.gcdOfStrings("LEET","CODE"));
-    }
-
     //T: O(min(m,n)⋅(m+n))
     //S: O(min(m,n))
     public String gcdOfStrings(String str1, String str2) {

@@ -3,16 +3,7 @@ package com.lazarin.practicing.leetcode.strings.easy;
 //https://leetcode.com/problems/longest-common-prefix/
 public class LongestCommonPrefix {
 
-    public static void main(String args[]){
-      /*  Input: strs = ["flower","flow","flight"]
-        Output: "fl"*/
-        System.out.println(longestCommonPrefix(new String[]{"flower","flow","flight"}));
-        /*Input: strs = ["dog","racecar","car"]
-        Output: ""*/
-        System.out.println(longestCommonPrefix(new String[]{"dog","racecar","car"}));
-    }
-
-    public static String longestCommonPrefix(String[] strs) {
+    public String longestCommonPrefix(String[] strs) {
 
         String commonPrefix = "";
         if(strs == null || strs.length == 1){
@@ -32,7 +23,7 @@ public class LongestCommonPrefix {
 
     //T: O(n) where n is the number of characters of all strings together
     //O: O(1)
-    public static String longestCommonPrefix2(String[] strs) {
+    public String longestCommonPrefix_2(String[] strs) {
         String longestCommonPrefix = "";
         if(strs == null || strs.length == 0){
             return longestCommonPrefix;

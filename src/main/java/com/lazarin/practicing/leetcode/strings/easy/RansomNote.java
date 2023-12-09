@@ -6,23 +6,6 @@ import java.util.Map;
 //https://leetcode.com/problems/ransom-note/description/
 public class RansomNote {
 
-    public static void main(String args[]){
-
-        RansomNote rs = new RansomNote();
-
-       /* Input: ransomNote = "a", magazine = "b"
-        Output: false*/
-        System.out.println(rs.canConstruct("a","b"));
-
-        /*Input: ransomNote = "aa", magazine = "ab"
-        Output: false*/
-        System.out.println(rs.canConstruct("aa","ab"));
-
-      /*  Input: ransomNote = "aa", magazine = "aab"
-        Output: true*/
-        System.out.println(rs.canConstruct("aa","aab"));
-    }
-
     public boolean canConstruct(String ransomNote, String magazine) {
 
         if (ransomNote.length() > magazine.length()) return false;
@@ -53,7 +36,7 @@ public class RansomNote {
         return false;
     }
 
-    public boolean canConstruct2(String ransomNote, String magazine) {
+    public boolean canConstruct_2(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) return false;
         int[] alphabets_counter = new int[26];
 

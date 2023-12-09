@@ -5,17 +5,6 @@ import java.util.Arrays;
 //https://leetcode.com/problems/find-the-difference/
 public class FindTheDifference {
 
-    public static void main(String args[]){
-
-       /* Input: s = "abcd", t = "abcde"
-        Output: "e"
-        Explanation: 'e' is the letter that was added.*/
-
-       /* Input: s = "", t = "y"
-        Output: "y"*/
-
-    }
-
     //T: O(N)
     //S: O(N)
     public char findTheDifference(String s, String t) {
@@ -47,7 +36,7 @@ public class FindTheDifference {
 
     //approach 2 - a little more optimal
     //Idea is ascii sum of second string - ascii sum in first string will leave us with ascii of the extra letter.
-    public char findTheDifference2(String s, String t){
+    public char findTheDifference_2(String s, String t){
         int charCode = t.charAt(s.length());
         // Iterate through both strings and char codes
         for (int i = 0; i < s.length(); ++i) {

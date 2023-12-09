@@ -6,22 +6,6 @@ import java.util.Map;
 //https://leetcode.com/problems/longest-palindrome/
 public class LongestPalindrome {
 
-    public static void main(String args[]){
-        LongestPalindrome lp = new LongestPalindrome();
-        /*
-        Input: s = "abccccdd"
-        Output: 7
-        Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.*/
-        System.out.println(lp.longestPalindrome("abccccdd"));
-        System.out.println(lp.longestPalindrome2("abccccdd"));
-
-       /* Input: s = "a"
-        Output: 1
-        Explanation: The longest palindrome that can be built is "a", whose length is 1.*/
-        System.out.println(lp.longestPalindrome("a"));
-        System.out.println(lp.longestPalindrome2("a"));
-    }
-
     //approach 1
     //T: O(N)
     //S: O(N)
@@ -51,7 +35,7 @@ public class LongestPalindrome {
     //approach 2
     //T:O(N)
     //S:O(N)
-    public int longestPalindrome2(String s) {
+    public int longestPalindrome_2(String s) {
         int[] char_counter = new int[128];//asc letters
         for(Character c : s.toCharArray()){
             char_counter[c]++;

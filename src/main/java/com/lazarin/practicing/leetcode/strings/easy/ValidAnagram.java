@@ -2,20 +2,9 @@ package com.lazarin.practicing.leetcode.strings.easy;
 
 //https://leetcode.com/problems/valid-anagram
 public class ValidAnagram {
-    public static void main(String args[]){
-
-        // s = "anagram", t = "nagaram" => TRUE
-        var resp = isAnagram("anagram", "nagaram");
-        System.out.println(resp);
-
-        // s = "rat", t = "car" => FALSE
-        var resp2 = isAnagram("rat", "car");
-        System.out.println(resp2);
-
-    }
 
     //T: O(n)
-    public static boolean isAnagram(String s, String t) {
+    public boolean isAnagram(String s, String t) {
         if(s.length() != t.length()){
             return false;
         }

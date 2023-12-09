@@ -6,20 +6,6 @@ import java.util.Set;
 //https://leetcode.com/problems/reverse-vowels-of-a-string/description/
 public class ReverseVowelsOfaString {
 
-    public static void main(String args[]){
-
-        ReverseVowelsOfaString vvs = new ReverseVowelsOfaString();
-
-       /* Input: s = "hello"
-        Output: "holle"*/
-        System.out.println(vvs.reverseVowels("hello"));
-
-     /*   Input: s = "leetcode"
-        Output: "leotcede"*/
-        System.out.println(vvs.reverseVowels("leetcode"));
-
-    }
-
     //T: O(N)
     //S: O(N)
     public String reverseVowels(String s) {
@@ -61,14 +47,9 @@ public class ReverseVowelsOfaString {
         return new String(charArr);
     }
 
-    private boolean isVowel(char c, boolean[] vowelsCode){
-        var c_l = Character.toLowerCase(c);
-        return vowelsCode[c_l];
-    }
-
     //T: O(N)
     //S: O(N)
-    public String reverseVowels2(String s) {
+    public String reverseVowels_2(String s) {
         int start = 0;
         int end = s.length() - 1;
         // Convert String to char array as String is immutable in Java

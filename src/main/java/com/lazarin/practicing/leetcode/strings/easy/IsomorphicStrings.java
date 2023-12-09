@@ -5,21 +5,10 @@ import java.util.Arrays;
 //https://leetcode.com/problems/isomorphic-strings/description/
 public class IsomorphicStrings {
 
-    public static void main(String args[]){
-       /* Input: s = "egg", t = "add"
-        Output: true*/
-        System.out.println(isIsomorphic("egg","add"));
-      /*  Input: s = "foo", t = "bar"
-        Output: false*/
-
-        /*Input: s = "paper", t = "title"
-        Output: true*/
-    }
-
     //T: O(N) where N is the amount of letters on both strings
     //S: O(1) as both mappings have fixed size0,
 
-    public static boolean isIsomorphic(String s, String t) {
+    public boolean isIsomorphic(String s, String t) {
 
         int[] s_to_t = new int[256]; //ASCII characters
         int[] t_to_s = new int[256];

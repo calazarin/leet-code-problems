@@ -5,19 +5,6 @@ import java.util.HashMap;
 //https://leetcode.com/problems/word-pattern/
 public class WordPattern {
 
-    public static void main(String args[]){
-
-        /*Input: pattern = "abba", s = "dog cat cat dog"
-        Output: true*/
-
-        /*Input: pattern = "abba", s = "dog cat cat fish"
-        Output: false*/
-
-       /* Input: pattern = "aaaa", s = "dog cat cat dog"
-        Output: false*/
-
-    }
-
     //T: O(m+n)
     //S: O(m+n)
     public boolean wordPattern(String pattern, String s) {

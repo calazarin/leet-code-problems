@@ -6,20 +6,7 @@ import java.util.Stack;
 //https://leetcode.com/problems/valid-parentheses
 public class ValidParentheses {
 
-    public static void main(String args[]){
-
-        //s = "()" => True
-        System.out.println(isValid("()"));
-        //s = "()[]{}" => True
-        System.out.println(isValid("()[]{}"));
-        //s = "(]" => False
-        System.out.println(isValid("(]"));
-        //s = "([)]" => False
-        System.out.println(isValid("([)]"));
-
-    }
-
-    public static boolean isValid(String s) {
+    public boolean isValid(String s) {
 
         if(s.length() <= 1) return false;
 

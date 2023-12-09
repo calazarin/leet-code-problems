@@ -3,22 +3,8 @@ package com.lazarin.practicing.leetcode.strings.easy;
 //https://leetcode.com/problems/valid-palindrome
 public class ValidPalindrome {
 
-    public static void main(String args[]){
-
-        // s = "A man, a plan, a canal: Panama" => TRUE
-        var resp = isPalindrome("A man, a plan, a canal: Panama");
-        System.out.println(resp);
-
-        //s = "race a car" => FALSE
-        var resp3 = isPalindrome("race a car");
-        System.out.println(resp3);
-
-
-        //s = " " => TRUE
-    }
-
     //T: O(n); S: O(1)
-    public static boolean isPalindrome(String phrase) {
+    public boolean isPalindrome(String phrase) {
 
         //regex:
         //^ - not those characters
