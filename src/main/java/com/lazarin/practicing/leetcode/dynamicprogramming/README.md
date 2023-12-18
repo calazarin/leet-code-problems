@@ -23,6 +23,8 @@
 10. [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
 11. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 12. [Best Time to Buy and Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+13. [Target Sum](https://leetcode.com/problems/target-sum/description/)
+14. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
 ## Hard
 

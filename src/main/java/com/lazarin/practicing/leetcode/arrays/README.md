@@ -50,6 +50,7 @@ This package contains array related problems
 15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 16. [Decode String](https://leetcode.com/problems/decode-string/)
 17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
+18. [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)
 
 ### Sliding Window
 #### Easy

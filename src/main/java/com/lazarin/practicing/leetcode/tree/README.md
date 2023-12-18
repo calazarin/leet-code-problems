@@ -34,10 +34,4 @@
 12. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
-
-### Medium - Trie
-
-1. [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
-2. [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
-3. [Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/)
-4. [Replace Words](https://leetcode.com/problems/replace-words/)
+15. [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)

@@ -65,6 +65,7 @@ This section enumerates all problems in this repository and the respective links
 15. [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)
 16. [Decode String](https://leetcode.com/problems/decode-string/)
 17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
+18. [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)
 
 ---
 
@@ -189,6 +190,8 @@ ___
 10. [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)
 11. [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 12. [Best Time to Buy and Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
+13. [Target Sum](https://leetcode.com/problems/target-sum/description/)
+14. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
 #### Hard
 
@@ -320,7 +323,8 @@ ___
 7. [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close)
 8. [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
 9. [Dota2 Senate](https://leetcode.com/problems/dota2-senate/)
-
+10. [Check if a Parentheses String Can Be Valid](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
+11. [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 ___
 
 ### Tree
@@ -360,6 +364,7 @@ ___
 12. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+15. [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree)
 
 ___
 

@@ -3,19 +3,6 @@ package com.lazarin.practicing.leetcode.strings.easy;
 //https://leetcode.com/problems/is-subsequence/
 public class IsSubsequence {
 
-    public static void main(String args[]){
-
-        IsSubsequence is = new IsSubsequence();
-
-       /* Input: s = "abc", t = "ahbgdc"
-        Output: true*/
-        System.out.println(is.isSubsequence("abc","ahbgdc"));
-
-       /* Input: s = "axc", t = "ahbgdc"
-        Output: false*/
-        System.out.println(is.isSubsequence("axc","ahbgdc"));
-    }
-
     //approach - 2 pointers i and j
     //T: O(m+n)
     //S: O(1)
