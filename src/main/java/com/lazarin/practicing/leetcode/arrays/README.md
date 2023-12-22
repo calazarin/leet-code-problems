@@ -30,6 +30,10 @@ This package contains array related problems
 24. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)
 25. [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays)
 26. [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)
+27. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)
+28. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+29. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+30. [Keyboard Row](https://leetcode.com/problems/keyboard-row/)
 
 ## Medium
 

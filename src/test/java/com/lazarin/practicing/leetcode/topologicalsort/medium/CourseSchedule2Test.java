@@ -1,5 +1,6 @@
-package com.lazarin.practicing.leetcode.graph.medium;
+package com.lazarin.practicing.leetcode.topologicalsort.medium;
 
+import com.lazarin.practicing.leetcode.topologicalsort.medium.CourseSchedule2;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.graph.medium;
+package com.lazarin.practicing.leetcode.topologicalsort.medium;
 
 import java.util.ArrayList;
 import java.util.HashMap;

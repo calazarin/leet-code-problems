@@ -45,6 +45,10 @@ This section enumerates all problems in this repository and the respective links
 24. [Find Pivot Index](https://leetcode.com/problems/find-pivot-index)
 25. [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays)
 26. [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences)
+27. [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)
+28. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+29. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+30. [Keyboard Row](https://leetcode.com/problems/keyboard-row/)
 
 #### Medium
 
@@ -205,18 +209,24 @@ ___
 #### Medium
 
 1. [Course Schedule](https://leetcode.com/problems/course-schedule/)
-2. [Course Schedule 2](https://leetcode.com/problems/course-schedule-ii/description/)
-3. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
-4. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-5. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-6. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-7. [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
-8. [Number of Provinces](https://leetcode.com/problems/number-of-provinces)
-9. [Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
-10. [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
-11. [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze)
-12. [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
+2. [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)
+3. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+4. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+5. [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+6. [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+7. [Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+8. [Reorder routes to make all paths lead to the city zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+9. [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
+10. [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze)
+11. [Rotting Oranges](https://leetcode.com/problems/rotting-oranges)
 
+___
+
+### Topological Sort
+
+#### Medium
+
+1. [Course Schedule 2](https://leetcode.com/problems/course-schedule-ii/description/)
 ___
 
 ### Greedy
