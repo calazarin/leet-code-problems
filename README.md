@@ -49,6 +49,8 @@ This section enumerates all problems in this repository and the respective links
 28. [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 29. [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 30. [Keyboard Row](https://leetcode.com/problems/keyboard-row/)
+31. [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)
+
 
 #### Medium
 
