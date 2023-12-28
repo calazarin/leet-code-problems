@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.monotonicstack.easy;
+package com.lazarin.practicing.leetcode.stack.easy;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
- * {@link com.lazarin.practicing.leetcode.monotonicstack.easy.FindTheNearestSmallerNumbersOnLeftSideInAnArray}
+ * {@link com.lazarin.practicing.leetcode.stack.easy.FindTheNearestSmallerNumbersOnLeftSideInAnArray}
  */
 public class FindTheNearestSmallerNumbersOnLeftSideInAnArrayTest {
 

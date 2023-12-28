@@ -22,6 +22,6 @@ public class TwoSumIVInputIsABstTest {
         root.right = new TwoSumIVInputIsABst(). new TreeNode(6, null, new TwoSumIVInputIsABst(). new TreeNode(7));
 
         assertThat(solution.findTarget(root, 9), is(true));
-        assertThat(solution.findTarget(root, 28), is(true));
+        assertThat(solution.findTarget(root, 28), is(false));
     }
 }

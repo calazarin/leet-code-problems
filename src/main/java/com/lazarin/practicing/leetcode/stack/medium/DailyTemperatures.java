@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.monotonicstack.medium;
+package com.lazarin.practicing.leetcode.stack.medium;
 
 import java.util.Stack;
 

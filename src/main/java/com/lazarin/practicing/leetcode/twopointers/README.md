@@ -6,3 +6,7 @@
 2. [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 3. [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)
 4. [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
+
+## Medium
+
+1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)

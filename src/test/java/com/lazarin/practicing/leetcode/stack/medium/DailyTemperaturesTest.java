@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.monotonicstack.medium;
+package com.lazarin.practicing.leetcode.stack.medium;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 /**
- * {@link com.lazarin.practicing.leetcode.monotonicstack.medium.DailyTemperatures}
+ * {@link com.lazarin.practicing.leetcode.stack.medium.DailyTemperatures}
  */
 public class DailyTemperaturesTest {
 

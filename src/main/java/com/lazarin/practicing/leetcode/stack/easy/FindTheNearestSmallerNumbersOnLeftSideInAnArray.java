@@ -1,4 +1,4 @@
-package com.lazarin.practicing.leetcode.monotonicstack.easy;
+package com.lazarin.practicing.leetcode.stack.easy;
 
 import java.util.Stack;
 
