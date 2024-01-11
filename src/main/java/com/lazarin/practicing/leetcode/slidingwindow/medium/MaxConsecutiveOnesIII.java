@@ -1,22 +1,7 @@
-package com.lazarin.practicing.leetcode.arrays.slidewindow.medium;
+package com.lazarin.practicing.leetcode.slidingwindow.medium;
 
 //https://leetcode.com/problems/max-consecutive-ones-iii
 public class MaxConsecutiveOnesIII {
-
-    public static void main(String args[]){
-        MaxConsecutiveOnesIII solution = new MaxConsecutiveOnesIII();
-        /*Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
-        Output: 6*/
-        System.out.println(solution.longestOnes(new int[]{1,1,1,0,0,0,1,1,1,1,0}, 2));
-
-       /* Input: nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3
-        Output: 10*/
-        System.out.println(solution.longestOnes(new int[]{0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1}, 3));
-
-        /*Input: nums = [0,0,1,1,1,0,0]
-        Output: k = 2*/
-        System.out.println(solution.longestOnes3(new int[]{0, 0, 1, 1, 1, 0, 0}, 0));
-    }
 
     //approach 1 - sliding window (1)
     //T: O(N)

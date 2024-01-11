@@ -73,38 +73,40 @@ This section enumerates all problems in this repository and the respective links
 17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 18. [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)
 
----
-
-### Sliding Window
-#### Easy
-
-1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
-2. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)
-
-#### Medium
-
-1. [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
-2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
-3. [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
-
-___
-
-### 3D Arrays (Matrix)
+##### 3D Arrays (Matrix)
 
 1. [Rotate Image](https://leetcode.com/problems/rotate-image/)
 2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 3. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 4. [Word Search](https://leetcode.com/problems/word-search/)
 
+---
+
+### Sliding Window
+
+#### Easy
+
+1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
+2. [Maximum Average Sub-array I](https://leetcode.com/problems/maximum-average-subarray-i)
+3. [Find the K-Beauty of a Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number/)
+4. [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)
+5. [Minimum recolors to get K consecutive black blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
+6. [Substring of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
+
+#### Medium
+
+1. [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
+2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+3. [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
 ___
 
 ### Backtracking
 
-### Easy
+#### Easy
 
 1. [Sum of All Subsets XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
 
-### Medium
+#### Medium
 
 1. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 2. [Permutations](https://leetcode.com/problems/permutations/)
@@ -117,7 +119,7 @@ ___
 9. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 10. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
 
-### Hard
+#### Hard
 
 1. [N Queens](https://leetcode.com/problems/n-queens/)
 

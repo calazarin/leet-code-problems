@@ -57,25 +57,9 @@ This package contains array related problems
 17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 18. [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)
 
-### Sliding Window
-#### Easy
-
-1. [Contains Duplicate 2](https://leetcode.com/problems/contains-duplicate-ii/)
-2. [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i)
-
-#### Medium
-
-1. [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
-2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
-3. [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
-
-### Binary Search
-
-13. [Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)
-
 ### 3D Arrays (Matrix)
 
-14. [Rotate Image](https://leetcode.com/problems/rotate-image/)
-15. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-16. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-17. [Word Search](https://leetcode.com/problems/word-search/)
+1. [Rotate Image](https://leetcode.com/problems/rotate-image/)
+2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+3. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+4. [Word Search](https://leetcode.com/problems/word-search/)

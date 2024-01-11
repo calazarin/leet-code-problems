@@ -1,22 +1,7 @@
-package com.lazarin.practicing.leetcode.arrays.slidewindow.easy;
+package com.lazarin.practicing.leetcode.slidingwindow.easy;
 
 //https://leetcode.com/problems/maximum-average-subarray-i
 public class MaximumAverageSubarray {
-
-    public static void main(String args[]){
-        MaximumAverageSubarray solution = new MaximumAverageSubarray();
-       /* Input: nums = [1,12,-5,-6,50,3], k = 4
-        Output: 12.75000*/
-        System.out.println(solution.findMaxAverage2(new int[]{1, 12, -5, -6, 50, 3}, 4));
-
-       /* Input: nums = [5], k = 1
-        Output: 5.00000*/
-        System.out.println(solution.findMaxAverage2(new int[]{5}, 1));
-
-        /* Input: nums = [-1], k = 1
-        Output: -1.00000*/
-        //System.out.println(solution.findMaxAverage(new int[]{-1}, 1));
-    }
 
     // approach 1 - not too much optimal
     public double findMaxAverage(int[] nums, int k) {

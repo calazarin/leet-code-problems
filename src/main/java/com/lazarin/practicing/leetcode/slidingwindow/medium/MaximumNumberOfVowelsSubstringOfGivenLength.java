@@ -1,26 +1,9 @@
-package com.lazarin.practicing.leetcode.arrays.slidewindow.medium;
+package com.lazarin.practicing.leetcode.slidingwindow.medium;
 
 import java.util.Set;
 
 //https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length
 public class MaximumNumberOfVowelsSubstringOfGivenLength {
-
-    public static void main(String args[]){
-
-        MaximumNumberOfVowelsSubstringOfGivenLength solution =
-                new MaximumNumberOfVowelsSubstringOfGivenLength();
-        /*Input: s = "abciiidef", k = 3
-        Output: 3*/
-        System.out.println(solution.maxVowels("abciiidef",3));
-
-        /*Input: s = "aeiou", k = 2
-        Output: 2*/
-        System.out.println(solution.maxVowels("aeiou",2));
-
-       /* Input: s = "leetcode", k = 3
-        Output: 2*/
-        System.out.println(solution.maxVowels("leetcode",3));
-    }
 
     //approach - sliding window
     public int maxVowels(String s, int k) {

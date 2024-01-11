@@ -1,20 +1,9 @@
-package com.lazarin.practicing.leetcode.arrays.slidewindow.easy;
+package com.lazarin.practicing.leetcode.slidingwindow.easy;
 
 import java.util.HashMap;
 
 //https://leetcode.com/problems/contains-duplicate-ii/
 public class ContainsDuplicate2 {
-
-    public static void main(String args[]){
-      /*  Input: nums = [1,2,3,1], k = 3
-        Output: true*/
-
-        /*Input: nums = [1,0,1,1], k = 1
-        Output: true*/
-
-       /* Input: nums = [1,2,3,1,2,3], k = 2
-        Output: false*/
-    }
 
     //approach 1 -
     //T: O(n^2)

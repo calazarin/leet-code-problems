@@ -1,25 +1,8 @@
-package com.lazarin.practicing.leetcode.arrays.slidewindow.medium;
+package com.lazarin.practicing.leetcode.slidingwindow.medium;
 
 
 //https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element
 public class LongestSubarrayOfOnesAfterDeletingOneElement {
-
-    public static void main(String args[]){
-        LongestSubarrayOfOnesAfterDeletingOneElement solution =
-                new LongestSubarrayOfOnesAfterDeletingOneElement();
-
-       /* Input: nums = [1,1,0,1]
-        Output: 3*/
-        System.out.println(solution.longestSubarray2(new int[]{1,1,0,1}));
-
-        /*Input: nums = [0,1,1,1,0,1,1,0,1]
-        Output: 5*/
-        System.out.println(solution.longestSubarray2(new int[]{0,1,1,1,0,1,1,0,1}));
-
-      /*  Input: nums = [1,1,1]
-        Output: 2*/
-        System.out.println(solution.longestSubarray2(new int[]{1,1,1}));
-    }
 
     //:T: O(N)
     //S: O(1)
