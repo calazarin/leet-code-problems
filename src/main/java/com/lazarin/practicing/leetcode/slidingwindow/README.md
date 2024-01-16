@@ -8,6 +8,8 @@
 4. [Defuse the Bomb](https://leetcode.com/problems/defuse-the-bomb/)
 5. [Minimum recolors to get K consecutive black blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)
 6. [Substring of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/)
+7. [Minimum Difference between highest and lowest of k scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
+8. [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)
 
 ## Medium
 

@@ -17,33 +17,14 @@ public class LinkedListMain {
         c.next = d;
 
         //A -> B -> C -> D -> null
-
         printLinkedList(a);
     }
-
-    /*public static void printLinkedList(LinkedNode head){
-        LinkedNode current = head;
-        while(current != null){
-            System.out.println(current.value);
-            current = current.next;
-        }
-    }*/
 
     public static void printLinkedList(LinkedNode head){
         if(head == null) return;
         System.out.println(head.value);
         printLinkedList(head.next);
     }
-
-    /*public static List<String> returnValues(LinkedNode head){
-        List<String> returnData = new ArrayList<>();
-        LinkedNode current = head;
-        while(current != null){
-            returnData.add(current.value);
-            current = current.next;
-        }
-        return returnData;
-    }*/
 
     public static List<String> returnValues(LinkedNode head){
         List<String> returnData = new ArrayList<>();
@@ -56,4 +37,5 @@ public class LinkedListMain {
         returnData.add(head.value);
         fillValues(head.next, returnData);
     }
+
 }
