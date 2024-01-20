@@ -17,6 +17,11 @@
 14. [Subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree/)
 15. [Leaf Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
 16. [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree)
+17. [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+18. [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
+19. [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+20. [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/description/)
+21. [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
 
 ## Medium
 
