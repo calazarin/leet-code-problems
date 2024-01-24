@@ -373,6 +373,10 @@ ___
 19. [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
 20. [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/description/)
 21. [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/description/)
+22. [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+23. [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)
+24. [Sum of Root to Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/)
+25. [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
 
 #### Medium
 
