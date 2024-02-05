@@ -6,28 +6,30 @@ import java.util.List;
 //https://leetcode.com/problems/permutations/
 public class Permutations {
 
-    //recursive solution
+    //approach 1 - recursive solution
+    //T: O(n! * n)
+    //S: O(n) + O(n)
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> answer = new ArrayList<>();
-        List<Integer> dataStrct = new ArrayList<>();
-        boolean freq[] = new boolean[nums.length];
-        recurPermute(nums, dataStrct, answer, freq);
+        List<Integer> perm = new ArrayList<>();
+        boolean visited[] = new boolean[nums.length];
+        recurPermute(nums, perm, answer, visited);
         return answer;
     }
 
-    private void recurPermute(int[] nums, List<Integer> dataStrct, List<List<Integer>> answer, boolean[] freq) {
-        if(dataStrct.size() == nums.length){
-            answer.add(new ArrayList<>(dataStrct));
+    private void recurPermute(int[] nums, List<Integer> perm, List<List<Integer>> answer, boolean[] visited) {
+        if(perm.size() == nums.length){
+            answer.add(new ArrayList<>(perm));
             return;
         }
 
         for(int i = 0 ; i < nums.length; i++){
-            if(!freq[i]){
-                freq[i] = true;
-                dataStrct.add(nums[i]);
-                recurPermute(nums, dataStrct, answer, freq);
-                dataStrct.remove(dataStrct.size() - 1);
-                freq[i] = false;
+            if(!visited[i]){
+                visited[i] = true;
+                perm.add(nums[i]);
+                recurPermute(nums, perm, answer, visited);
+                perm.remove(perm.size() - 1);
+                visited[i] = false;
             }
         }
     }

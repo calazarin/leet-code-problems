@@ -16,6 +16,12 @@
 8. [Subsets](https://leetcode.com/problems/subsets/)
 9. [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
 10. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)
+11. [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/)
+12. [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
+13. [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
+14. [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)
+15. [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)
+16. [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/description/)
 
 ## Hard
 

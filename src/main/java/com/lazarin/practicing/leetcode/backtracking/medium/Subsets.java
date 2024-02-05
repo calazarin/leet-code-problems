@@ -7,8 +7,8 @@ import java.util.List;
 //https://leetcode.com/problems/subsets/
 public class Subsets {
 
-    //T: n * 2^n; either you pick a choicer or not
-    //S: O(n)
+    //T: (n * 2^n); either you pick a choicer or not
+    //S: O(2^n)
     public List<List<Integer>> subsets(int[] nums) {
 
         List<List<Integer>> answer = new ArrayList();
@@ -30,4 +30,29 @@ public class Subsets {
         }
     }
 
+    //T: (2^n); either you pick a choicer or not
+    //S: O(2^n)
+    public List<List<Integer>> subsets_2(int[] nums) {
+
+        List<List<Integer>> answer = new ArrayList();
+        solveIt(0, nums, new ArrayList<>(), answer);
+        return answer;
+    }
+
+
+    private void solveIt(int index, int[] nums, List<Integer> subSeq, List<List<Integer>> ans) {
+        if(index >= nums.length) {
+            ans.add(new ArrayList(subSeq));
+            return;
+        }
+
+        //take
+        subSeq.add(nums[index]);
+        solveIt(index  + 1, nums, subSeq, ans);
+
+        //not take
+        subSeq.remove(subSeq.size() - 1);
+        solveIt(index + 1, nums, subSeq, ans);
+
+    }
 }
