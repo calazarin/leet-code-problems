@@ -72,6 +72,9 @@ This section enumerates all problems in this repository and the respective links
 16. [Decode String](https://leetcode.com/problems/decode-string/)
 17. [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score)
 18. [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal)
+19. [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)
+20. [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/)
+21. [Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/description/)
 
 ##### 3D Arrays (Matrix)
 
@@ -79,6 +82,7 @@ This section enumerates all problems in this repository and the respective links
 2. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 3. [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 4. [Word Search](https://leetcode.com/problems/word-search/)
+5. [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)
 
 ---
 
