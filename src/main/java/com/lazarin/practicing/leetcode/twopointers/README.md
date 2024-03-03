@@ -10,3 +10,7 @@
 ## Medium
 
 1. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+2. [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)
+3. [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)
+4. [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)
+5. [Partition Labels](https://leetcode.com/problems/partition-labels/)

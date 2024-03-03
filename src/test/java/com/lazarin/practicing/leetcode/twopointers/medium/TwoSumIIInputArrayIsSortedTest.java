@@ -1,6 +1,5 @@
 package com.lazarin.practicing.leetcode.twopointers.medium;
 
-import com.lazarin.practicing.leetcode.twopointers.easy.ReverseStringII;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
