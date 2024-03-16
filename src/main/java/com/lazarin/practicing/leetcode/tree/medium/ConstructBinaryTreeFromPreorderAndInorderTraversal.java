@@ -1,7 +1,5 @@
 package com.lazarin.practicing.leetcode.tree.medium;
 
-import com.lazarin.practicing.leetcode.trie.medium.TreeNode;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,15 +26,27 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         TreeNode root = new TreeNode(preorder[preStart]);
 
         int inRootIndex = inMap.get(root.val);
-
         int numsLeft = inRootIndex - inStart;
-
         root.left = build(preorder, preStart + 1, preStart + numsLeft,
                 inorder, inStart, inRootIndex - 1, inMap);
-
         root.right = build(preorder, preStart + numsLeft + 1, preStart + preEnd,
                 inorder, inRootIndex + 1, inEnd, inMap);
-
         return root;
+    }
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+       TreeNode right;
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }

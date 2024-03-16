@@ -425,6 +425,8 @@ ___
 13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 15. [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree)
+16. [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)
+17. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
 
 ___
 
@@ -459,6 +461,12 @@ ___
 #### Medium
 
 1. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
+2. [Online Stock Span](https://leetcode.com/problems/online-stock-span)
+3. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
+4. [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)
+5. [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)
+6. [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
+7. [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)
 
 ___
 
@@ -478,6 +486,7 @@ ___
 3. [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/description/)
 4. [Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/description/)
 5. [Partition Labels](https://leetcode.com/problems/partition-labels/)
+6. [Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/)
 
 ___
 

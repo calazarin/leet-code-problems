@@ -13,3 +13,7 @@
 
 1. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 2. [Online Stock Span](https://leetcode.com/problems/online-stock-span)
+3. [Build an Array With Stack Operations](https://leetcode.com/problems/build-an-array-with-stack-operations/)
+4. [Design Browser History](https://leetcode.com/problems/design-browser-history/description/)
+5. [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
+6. [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)

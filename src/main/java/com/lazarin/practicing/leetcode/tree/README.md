@@ -45,3 +45,5 @@
 13. [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 14. [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
 15. [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
+16. [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)
+17. [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
