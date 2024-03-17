@@ -1,5 +1,8 @@
 package com.lazarin.practicing.leetcode.tree.medium;
 
+
+import java.util.Stack;
+
 //https://leetcode.com/problems/maximum-binary-tree/description/
 public class MaximumBinaryTree {
 
@@ -30,6 +33,30 @@ public class MaximumBinaryTree {
             }
         }
         return new int[]{max, maxIndex};
+    }
+
+    //approach 2- using a motonic stack
+    //T: O(N); S:O(N)
+    public TreeNode constructMaximumBinaryTree_2(int[] nums) {
+       //store nodes in decreasing order
+        Stack<TreeNode> stack = new Stack<>();
+
+        for(int num : nums) {
+            TreeNode node = new TreeNode(num);
+
+            while(!stack.isEmpty() && stack.peek().val < num) {
+                TreeNode temp = stack.pop();
+                node.left = temp;
+            }
+
+            if(!stack.isEmpty()) {
+                stack.peek().right = node;
+            }
+
+            stack.push(node);
+        }
+
+        return stack.firstElement();
     }
 
     public class TreeNode {

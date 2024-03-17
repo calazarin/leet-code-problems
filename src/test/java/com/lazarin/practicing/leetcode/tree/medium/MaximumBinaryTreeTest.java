@@ -21,6 +21,14 @@ public class MaximumBinaryTreeTest {
 
     }
 
+    @Test
+    public void shouldReturnExpectedAnswers_approach2() {
+        MaximumBinaryTree solution = new MaximumBinaryTree();
+        MaximumBinaryTree.TreeNode resp = solution.constructMaximumBinaryTree_2(new int[]{3,2,1,6,0,5});
+        assertThat(inOrder(resp), is(Arrays.asList(3,2,1,6,0,5)));
+
+    }
+
     private List<Integer> inOrder(MaximumBinaryTree.TreeNode root){
         List<Integer> nums = new ArrayList<>();
         helper(root, nums);
