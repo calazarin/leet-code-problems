@@ -19,4 +19,5 @@ public class KokoEatingBananasTest {
         assertThat(solution.minEatingSpeed(new int[]{30,11,23,4,20},5),is(30));
         assertThat(solution.minEatingSpeed(new int[]{30,11,23,4,20},6),is(23));
     }
+
 }

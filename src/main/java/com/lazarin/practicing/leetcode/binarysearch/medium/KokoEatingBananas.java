@@ -5,6 +5,8 @@ import java.util.Arrays;
 //https://leetcode.com/problems/koko-eating-bananas
 public class KokoEatingBananas {
 
+    //approach - binary search
+    //T: O(log(max(p) * M) where M is the piles length
     public int minEatingSpeed(int[] piles, int h) {
 
         Arrays.sort(piles);
@@ -28,5 +30,4 @@ public class KokoEatingBananas {
         }
         return answer;
     }
-
 }

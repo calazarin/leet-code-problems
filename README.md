@@ -153,6 +153,10 @@ ___
 1. [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 2. [Successful Pairs of Spells And Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)
 3. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
+4. [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/)
+5. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
+6. [Find Positive Integer Solution for a Given Equation](https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation/description/)
+7. [Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/description/)
 
 ___
 
