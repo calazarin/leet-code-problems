@@ -315,6 +315,10 @@ ___
 10. [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list)
 11. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list)
 12. [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list)
+13. [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)
+14. [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)
+15. [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)
+16. [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)
 
 ___
 
